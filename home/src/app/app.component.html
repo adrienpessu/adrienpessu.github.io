@@ -1,0 +1,88 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="page">
+
+  <div class="page-header">
+    <md-toolbar class="toolbar-header">
+        <md-icon (click)="sidenav.toggle()" style="color:white;cursor:pointer; margin-right: 10px;">menu</md-icon>
+      <p style="color:white; margin-right: 10px; justify-content: space-between">Adrien Pessu</p>
+    </md-toolbar>
+  </div>
+
+
+  <div class="page-content">
+      <md-sidenav-container class="bg">
+          <md-sidenav #sidenav mode="side" opened="true" style="background-color: #d8dfea; width: 200px;">
+
+              <md-list style="border-bottom: 1px solid #8b9dc3;margin: 5px;">
+                  <md-list-item (click)="scroll(contact)" style="cursor:pointer;"><md-icon style="margin-right: 10px;">mail</md-icon>Contact</md-list-item>
+                  <md-list-item (click)="scroll(competences)" style="cursor:pointer;"><md-icon style="margin-right: 10px;">verified_user</md-icon>Compétences</md-list-item>
+                  <md-list-item (click)="scroll(experiences)" style="cursor:pointer;"><md-icon style="margin-right: 10px;">assignment</md-icon>Exprériences</md-list-item>
+                  <md-list-item (click)="scroll(formations)" style="cursor:pointer;"><md-icon style="margin-right: 10px;">work</md-icon>Formations</md-list-item>
+                </md-list>
+              <div style="border-bottom: 1px solid #8b9dc3;">
+                  Copyright © 2017 - Adrien Pessu<br/>
+                  EURL - Adrien Pessu<br/>
+                  184, rue du Croissant – Tel. +336 45 87 08 28 – a.pessu@gmail.com<br/>
+                  SIRET XXX XXX XXX XXXXX – APE 6202A<br/>
+              </div>
+          </md-sidenav>
+        <div id="contact" #contact>
+            <md-card class="adrien-card">
+                <md-card-title><md-icon style="margin-right: 10px;">mail</md-icon>Contacts</md-card-title>
+                <md-card-content>
+                  Adrien Pessu, développeur freelance contacter-moi : <a href="mailto:a.pessu@gmail.com">a.pessu@gmail.com</a>
+                </md-card-content>
+                <md-card-content>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </md-card-content>
+            </md-card>
+        </div>
+      <div id="competences" #competences>
+          <md-card class="adrien-card">
+              <md-card-title><md-icon style="margin-right: 10px;">verified_user</md-icon>Compétences</md-card-title>
+              <md-card-content>
+                <ul>
+                  <li><div class="comp-label">Java  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="9"></md-slider></li>
+                  <li><div class="comp-label">Spring  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
+                  <li><div class="comp-label">Dropwizard  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
+                  <li><div class="comp-label">Javascript (ecmascript 6)  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
+                  <li><div class="comp-label">Mongo  : </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="6"></md-slider></li>
+                  <li><div class="comp-label">Postgres  : </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="7"></md-slider></li>
+                  <li><div class="comp-label">Oracle  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
+                  <li><div class="comp-label">Sql  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
+                  <li><div class="comp-label">Angular  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="9"></md-slider></li>
+                  <li><div class="comp-label">NgRx  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
+                  <li><div class="comp-label">RxJs  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
+                  <li><div class="comp-label">ReactJs  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="6"></md-slider></li>
+                </ul>
+              </md-card-content>
+            </md-card>
+      </div>
+      <div id="experiences" #experiences>
+          <md-card class="adrien-card">
+              <md-card-title><md-icon style="margin-right: 10px;">assignment</md-icon>Expériences</md-card-title>
+              <md-card-content>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </md-card-content>
+              <md-card-content>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </md-card-content>
+          </md-card>
+      </div>
+      <div id="formations" #formations>
+          <md-card class="adrien-card">
+              <md-card-title><md-icon style="margin-right: 10px;">work</md-icon>Formation</md-card-title>
+              <md-card-content>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </md-card-content>
+              <md-card-content>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </md-card-content>
+          </md-card>
+      </div>
+      <div style="height: 100px;">
+        &nbsp;
+      </div>
+    </md-sidenav-container>
+  </div>
+</div>

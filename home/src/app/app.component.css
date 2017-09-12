@@ -1,0 +1,89 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.toolbar-header {
+  background-color: #3b5998;
+}
+
+.page-header {
+  flex: 0 0 auto;
+  height: 60px;
+}
+
+.header-button {
+  margin-left: 5px;
+  margin-right: 5px;
+  max-width: 50%;
+}
+
+.bg {
+  background-color: #d8dfea;
+}
+
+.page-content {
+  background-color: #d8dfea;
+  flex: 1 1 auto;
+  position: fixed;
+  overflow: hidden;
+  top: 80px;
+}
+
+.page-footer {
+  flex: 0 0 auto;
+  background-color: #FFFFFF;
+}
+
+li {
+  list-style:none;
+  display:inline-flex;
+  width: 49%;
+}
+
+.adrien-card {
+  margin: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.adrien-slider {
+  width: 70%;
+}
+
+.comp-label {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.adrien-card-container {
+  display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+}
+
+.mat-sidenav-container {
+  min-height: 100%;
+  max-width: 100%;
+  width: 100%;
+  height: 100vh;
+}
+.mat-sidenav {
+  min-width: 250px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  height: 100vh;
+}
