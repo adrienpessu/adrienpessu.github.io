@@ -2,14 +2,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MdToolbarModule, MdCardModule, MdIconModule, MdSliderModule, MdButtonModule
-  , MdSidenavModule, MdListModule, MdTooltipModule, MdGridListModule} from '@angular/material';
+  , MdSidenavModule, MdListModule, MdTooltipModule, MdGridListModule, MdDialogModule} from '@angular/material';
 
 
+import {EnSavoirPlusComponent} from './ensavoirplus/ensavoirplus.component';
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent, EnSavoirPlusComponent
   ],
   imports: [
     BrowserModule,
@@ -22,8 +23,10 @@ import { AppComponent } from './app.component';
     MdSidenavModule,
     MdListModule,
     MdTooltipModule,
-    MdGridListModule
+    MdGridListModule,
+    MdDialogModule
   ],
+  entryComponents: [EnSavoirPlusComponent],
   providers: [],
   bootstrap: [AppComponent]
 })

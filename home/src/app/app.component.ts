@@ -9,6 +9,8 @@ import {
   animate,
   transition
 } from '@angular/animations';
+import {MdDialog} from '@angular/material';
+import {EnSavoirPlusComponent} from './ensavoirplus/ensavoirplus.component';
 
 @Component({
   selector: 'app-root',
@@ -17,6 +19,14 @@ import {
 })
 export class AppComponent {
   title = 'app';
+
+  constructor(public dialog: MdDialog) {}
+
+  openDialog(): void {
+    this.dialog.open(EnSavoirPlusComponent, {
+      width: '250px'
+    });
+  }
 
   scroll(el) {
       el.scrollIntoView(true);

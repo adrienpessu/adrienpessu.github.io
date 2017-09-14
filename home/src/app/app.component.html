@@ -4,7 +4,7 @@
   <div class="page-header">
     <md-toolbar class="toolbar-header">
         <md-icon (click)="sidenav.toggle()" style="color:white;cursor:pointer; margin-right: 10px;">menu</md-icon>
-      <p style="color:white; margin-right: 10px; justify-content: space-between">Adrien Pessu</p>
+      <p style="color:white; margin-right: 10px; justify-content: space-between"><a md-button href="https://adrien.pessu.net">Adrien Pessu</a></p>
     </md-toolbar>
   </div>
 
@@ -24,23 +24,28 @@
             <md-card class="adrien-card">
                 <md-card-title class="adrien-md-title"><md-icon class="adrien-md-title-icon">mail</md-icon>Contacts</md-card-title>
                 <md-card-content>
-                    <md-grid-list cols="3" rowHeight="3:1">
-                        <md-grid-tile>
-                          <img src="../assets/images/adrien_02.png" class="img-circle"/>
-                          <h4><b>EURL - Adrien Pessu</b></h4>
-                          184, rue du Croissant <br/>
-                          44300 Nantes
-                        </md-grid-tile>
-                        <md-grid-tile>
-                          <a href="tel:0033645870828" >+336 45 87 08 28</a><br/>
-                          <a href="mailto:a.pessu@gmail.com" >a.pessu@gmail.com</a><br/>
-                          SIRET XXX XXX XXX XXXXX – APE 6202A
-                        </md-grid-tile>
-                        <md-grid-tile>
-                            <md-icon>github</md-icon>
-                            <md-icon>linkedin</md-icon>
-                        </md-grid-tile>
-                      </md-grid-list>
+                  <div style="display: flex; align-items: center">
+                    <div style="width: 30%; text-align: center;">
+                      <a href="https://adrien.pessu.net"> <img src="../assets/images/adrien_02.png" class="img-circle"/></a>
+                    </div>
+                    <div>
+                      <h4><b>EURL - Adrien Pessu</b></h4>
+                      <a href="tel:0033645870828" >+336 45 87 08 28</a>&nbsp;<br/>
+                      <a href="mailto:a.pessu@gmail.com" >a.pessu@gmail.com</a>
+                    </div>
+                  </div>
+                  <div style="display: flex; align-items: center">
+                    <div style="width: 30%;text-align: center;">
+                      <a href="https://github.com/adrienpessu/" target="_BLANK"><img style="margin-left: 5px; margin-right: 5px" src="../assets/images/github.svg" height="36px"/></a>
+                      <a href="https://www.linkedin.com/in/adrien-pessu/" target="_BLANK"><img style="margin-left: 5px; margin-right: 5px" src="../assets/images/linkedin.svg" height="36px"/></a>
+                      <a href="https://twitter.com/adrien_pe" target="_BLANK"><img style="margin-left: 5px; margin-right: 5px" src="../assets/images/twitter.png" height="36px"/></a>
+                    </div>
+                    <div>
+                      184, rue du Croissant <br/>
+                      44300 Nantes<br/>
+                      SIRET XXX XXX XXX XXXXX – APE 6202A
+                    </div>
+                  </div>
                 </md-card-content>
             </md-card>
         </div>
@@ -48,11 +53,17 @@
             <md-card class="adrien-card">
                 <md-card-title class="adrien-md-title"><md-icon class="adrien-md-title-icon">account_circle</md-icon>À propos</md-card-title>
                 <md-card-content>
-                  J'aide les entreprises à définir la conception et l'architecture de leurs applications web avec de les bonnes pratiques d'organisations et d'ouillages modernes.
+                  <p>
+                    J'aide les entreprises à définir la conception et l'architecture de leurs applications web avec de les bonnes pratiques d'organisations et d'ouillages modernes.
+                  </p>
                   <br/>
+                  <p>
                   J'inteviens sur des missions de développement, conception et architecture applicative.
+                  </p>
                   <br/>
-                  Contactez-moi pour plus de renseignements.
+                  <p>
+                    Contactez-moi pour plus de renseignements.
+                  </p>
                 </md-card-content>
             </md-card>
         </div>
@@ -158,23 +169,41 @@
       <div id="experiences" #experiences>
           <md-card class="adrien-card">
               <md-card-title class="adrien-md-title"><md-icon class="adrien-md-title-icon">assignment</md-icon>Expériences</md-card-title>
+              <md-card-subtitle>Freelance - depuis Octobre 2017</md-card-subtitle>
               <md-card-content>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Mission chez Keendo - Lead Dev <button md-button (click)="openDialog()">En savoir plus</button>
               </md-card-content>
+              <md-card-subtitle>Lead dev - De Juillet 2015 à Septembre 2017</md-card-subtitle>
               <md-card-content>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </md-card-content>
+                Developpement, architecture, lead, ... <button (click)="openDialog()" md-button>En savoir plus</button>
+              </md-card-content>
+              <md-card-subtitle>Ingénieur étude et développement - De Septembre 2009 à Juin 2015</md-card-subtitle>
+              <md-card-content>
+                Mission chez divers client - <button (click)="openDialog()" md-button>En savoir plus</button>
+              </md-card-content>
           </md-card>
       </div>
       <div id="formations" #formations>
           <md-card class="adrien-card">
               <md-card-title class="adrien-md-title"><md-icon class="adrien-md-title-icon">work</md-icon>Formation</md-card-title>
+              <md-card-subtitle>Formation Microservice - Octobre 2016 (1 jour)</md-card-subtitle>
               <md-card-content>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                par Zenika Nantes <button (click)="openDialog()" md-button>En savoir plus</button>
               </md-card-content>
+              <md-card-subtitle>Formation ElasticSearch - Decembre 2015 (2 jour)</md-card-subtitle>
               <md-card-content>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </md-card-content>
+                par Zenika Rennes <button (click)="openDialog()" md-button>En savoir plus</button>
+              </md-card-content>
+              <md-card-subtitle>Diplome d'ingénieur option informatique - de Septembre 2006 à Août 2009</md-card-subtitle>
+              <md-card-content>
+                Séjour d'étude à Bradford en Angleterre (3 mois) <br/>
+                Séjour d'étude à Darmstadt en Allemange (6 mois) <br/>
+                <button (click)="openDialog()" md-button>En savoir plus</button>
+              </md-card-content>
+              <md-card-subtitle>BTS informatique de gestion option développeur d'application - De Septembre 2004 à Juin 2006</md-card-subtitle>
+              <md-card-content>
+                Mission chez divers client - <button (click)="openDialog()" md-button>En savoir plus</button>
+              </md-card-content>
           </md-card>
       </div>
       <div style="height: 100px;text-align: right">

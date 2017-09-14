@@ -42,6 +42,10 @@
   margin: 5px;
 }
 
+.mat-card-subtitle {
+  font-weight: bold;
+}
+
 .adrien-vignette {
   border-bottom: 1px solid #8b9dc3;
   background-color: #d8dfea;
@@ -130,3 +134,5 @@ ul {
   padding: 0;
   height: 100vh;
 }
+
+
