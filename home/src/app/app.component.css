@@ -1,3 +1,11 @@
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -23,6 +31,33 @@
   background-color: #d8dfea;
 }
 
+.img-circle {
+  border-radius: 50%;
+  margin: 10px;
+  vertical-align: text-top;
+}
+
+.adrien-menu {
+  border-bottom: 1px solid #8b9dc3;
+  margin: 5px;
+}
+
+.adrien-vignette {
+  border-bottom: 1px solid #8b9dc3;
+  background-color: #d8dfea;
+  margin: 5px;
+}
+
+.adrien-md-title{
+  display: flex;
+  align-items: left ;
+}
+
+.adrien-md-title-icon {
+  margin-right: 10px;
+  margin-top: 2px;
+}
+
 .page-content {
   background-color: #d8dfea;
   flex: 1 1 auto;
@@ -36,10 +71,16 @@
   background-color: #FFFFFF;
 }
 
-li {
+li.three {
   list-style:none;
   display:inline-flex;
-  width: 49%;
+  width: 32%;
+}
+
+li.two{
+  list-style:none;
+  display:inline-flex;
+  width: 48%;
 }
 
 .adrien-card {
@@ -52,6 +93,8 @@ ul {
 
 .adrien-slider {
   width: 70%;
+  min-width: 40px;
+  height: 36px;
 }
 
 .comp-label {

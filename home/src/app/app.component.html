@@ -12,55 +12,152 @@
   <div class="page-content">
       <md-sidenav-container class="bg">
           <md-sidenav #sidenav mode="side" opened="true" style="background-color: #d8dfea; width: 200px;">
-
-              <md-list style="border-bottom: 1px solid #8b9dc3;margin: 5px;">
+              <md-list class="adrien-menu">
                   <md-list-item (click)="scroll(contact)" style="cursor:pointer;"><md-icon style="margin-right: 10px;">mail</md-icon>Contact</md-list-item>
+                  <md-list-item (click)="scroll(about)" style="cursor:pointer;"><md-icon style="margin-right: 10px;">account_circle</md-icon>À propos</md-list-item>
                   <md-list-item (click)="scroll(competences)" style="cursor:pointer;"><md-icon style="margin-right: 10px;">verified_user</md-icon>Compétences</md-list-item>
                   <md-list-item (click)="scroll(experiences)" style="cursor:pointer;"><md-icon style="margin-right: 10px;">assignment</md-icon>Exprériences</md-list-item>
                   <md-list-item (click)="scroll(formations)" style="cursor:pointer;"><md-icon style="margin-right: 10px;">work</md-icon>Formations</md-list-item>
                 </md-list>
-              <div style="border-bottom: 1px solid #8b9dc3;">
-                  Copyright © 2017 - Adrien Pessu<br/>
-                  EURL - Adrien Pessu<br/>
-                  184, rue du Croissant – Tel. +336 45 87 08 28 – a.pessu@gmail.com<br/>
-                  SIRET XXX XXX XXX XXXXX – APE 6202A<br/>
-              </div>
           </md-sidenav>
         <div id="contact" #contact>
             <md-card class="adrien-card">
-                <md-card-title><md-icon style="margin-right: 10px;">mail</md-icon>Contacts</md-card-title>
+                <md-card-title class="adrien-md-title"><md-icon class="adrien-md-title-icon">mail</md-icon>Contacts</md-card-title>
                 <md-card-content>
-                  Adrien Pessu, développeur freelance contacter-moi : <a href="mailto:a.pessu@gmail.com">a.pessu@gmail.com</a>
+                    <md-grid-list cols="3" rowHeight="3:1">
+                        <md-grid-tile>
+                          <img src="../assets/images/adrien_02.png" class="img-circle"/>
+                          <h4><b>EURL - Adrien Pessu</b></h4>
+                          184, rue du Croissant <br/>
+                          44300 Nantes
+                        </md-grid-tile>
+                        <md-grid-tile>
+                          <a href="tel:0033645870828" >+336 45 87 08 28</a><br/>
+                          <a href="mailto:a.pessu@gmail.com" >a.pessu@gmail.com</a><br/>
+                          SIRET XXX XXX XXX XXXXX – APE 6202A
+                        </md-grid-tile>
+                        <md-grid-tile>
+                            <md-icon>github</md-icon>
+                            <md-icon>linkedin</md-icon>
+                        </md-grid-tile>
+                      </md-grid-list>
                 </md-card-content>
+            </md-card>
+        </div>
+        <div id="about" #about>
+            <md-card class="adrien-card">
+                <md-card-title class="adrien-md-title"><md-icon class="adrien-md-title-icon">account_circle</md-icon>À propos</md-card-title>
                 <md-card-content>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                  </md-card-content>
+                  J'aide les entreprises à définir la conception et l'architecture de leurs applications web avec de les bonnes pratiques d'organisations et d'ouillages modernes.
+                  <br/>
+                  J'inteviens sur des missions de développement, conception et architecture applicative.
+                  <br/>
+                  Contactez-moi pour plus de renseignements.
+                </md-card-content>
             </md-card>
         </div>
       <div id="competences" #competences>
           <md-card class="adrien-card">
-              <md-card-title><md-icon style="margin-right: 10px;">verified_user</md-icon>Compétences</md-card-title>
+              <md-card-title class="adrien-md-title"><md-icon class="adrien-md-title-icon">verified_user</md-icon>Compétences</md-card-title>
+              <md-card-subtitle>Développement</md-card-subtitle>
               <md-card-content>
                 <ul>
-                  <li><div class="comp-label">Java  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="9"></md-slider></li>
-                  <li><div class="comp-label">Spring  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
-                  <li><div class="comp-label">Dropwizard  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
-                  <li><div class="comp-label">Javascript (ecmascript 6)  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
-                  <li><div class="comp-label">Mongo  : </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="6"></md-slider></li>
-                  <li><div class="comp-label">Postgres  : </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="7"></md-slider></li>
-                  <li><div class="comp-label">Oracle  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
-                  <li><div class="comp-label">Sql  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
-                  <li><div class="comp-label">Angular  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="9"></md-slider></li>
-                  <li><div class="comp-label">NgRx  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
-                  <li><div class="comp-label">RxJs  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
-                  <li><div class="comp-label">ReactJs  : </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="6"></md-slider></li>
+                  <li class="three"><div class="comp-label">Java 8&nbsp;:</div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="9"></md-slider></li>
+                  <li class="three"><div class="comp-label">Spring(boot)&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
+                  <li class="three"><div class="comp-label">Hibernate&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
+                  <li class="three"><div class="comp-label">Dropwizard&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
+                  <li class="three"><div class="comp-label">Mockito&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
+                  <li class="three"><div class="comp-label">PowerMock&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
+                  <li class="three"><div class="comp-label">Gatlin&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
+                  <li class="three"><div class="comp-label">Maven&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="9"></md-slider></li>
+                  <li class="three"><div class="comp-label">Gradle&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
+                  <li class="three"><div class="comp-label">LiquidBase&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
+                  <li class="three"><div class="comp-label">JaxRs&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
+                  <li class="three"><div class="comp-label">Scala&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="5"></md-slider></li>
+                  <li class="three" mdTooltip="NgRx"><div class="comp-label">Angular&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="9"></md-slider></li>
+                  <li class="three"><div class="comp-label">RxJs&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
+                  <li class="three" mdTooltip="Redux"><div class="comp-label">React&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="6"></md-slider></li>
+                  <li class="three" mdTooltip="Ecma6, typeScript"><div  class="comp-label">JavaScript: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
+                  <li class="three"><div class="comp-label">Polymer: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
+                </ul>
+              </md-card-content>
+              <md-card-subtitle>VSC</md-card-subtitle>
+              <md-card-content>
+                <ul>
+                  <li class="two"><div class="comp-label">Git&nbsp;:</div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="9"></md-slider></li>
+                  <li class="two"><div class="comp-label">GitHub&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
+                  <li class="two"><div class="comp-label">GitLab&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
+                  <li class="two"><div class="comp-label">BitBucket&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
+                </ul>
+              </md-card-content>
+              <md-card-subtitle>CI</md-card-subtitle>
+              <md-card-content>
+                <ul>
+                  <li class="three"><div class="comp-label">Bitbucket Pipeline&nbsp;:</div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="9"></md-slider></li>
+                  <li class="three"><div class="comp-label">CircleCI&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
+                  <li class="three"><div class="comp-label">Jenkins&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
+                </ul>
+              </md-card-content>
+              <md-card-subtitle>Ops</md-card-subtitle>
+              <md-card-content>
+                <ul>
+                  <li class="three"><div class="comp-label">Script bash&nbsp;:</div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="9"></md-slider></li>
+                  <li class="three"><div class="comp-label">Nginx&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
+                  <li class="three"><div class="comp-label">Let's Encrypt&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
+                  <li class="three" mdTooltip="Build, run, push, deploy, compose"><div class="comp-label">Docker&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
+                  <li class="three"><div class="comp-label">Nexus&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
+                  <li class="three"><div class="comp-label">Rundeck&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
+                </ul>
+              </md-card-content>
+              <md-card-subtitle>Base de données</md-card-subtitle>
+              <md-card-content>
+                <ul>
+                    <li class="two"><div class="comp-label">Mongo&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="6"></md-slider></li>
+                    <li class="two"><div class="comp-label">Postgres&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="7"></md-slider></li>
+                    <li class="two"><div class="comp-label">Oracle&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="7"></md-slider></li>
+                    <li class="two"><div class="comp-label">Sql&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="8"></md-slider></li>
+                  </ul>
+              </md-card-content>
+              <md-card-subtitle>Conception/Architecture</md-card-subtitle>
+              <md-card-content>
+                <ul>
+                    <li class="two"><div class="comp-label">Microservices&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="8"></md-slider></li>
+                    <li class="two"><div class="comp-label">Api REST&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="8"></md-slider></li>
+                  </ul>
+              </md-card-content>
+              <md-card-subtitle>Sécurité</md-card-subtitle>
+              <md-card-content>
+                <ul>
+                    <li class="three"><div class="comp-label">Jwt&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="9"></md-slider></li>
+                    <li class="three"><div class="comp-label">OAuth&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="7"></md-slider></li>
+                    <li class="three"><div class="comp-label">Zap&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="0.5" value="6"></md-slider></li>
+                </ul>
+              </md-card-content>
+              <md-card-subtitle>Applicatifs</md-card-subtitle>
+              <md-card-content>
+                <ul>
+                    <li class="two"><div class="comp-label">RabbitMQ&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="7"></md-slider></li>
+                    <li class="two"><div class="comp-label">ElasticSearch&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="8"></md-slider></li>
+                </ul>
+              </md-card-content>
+              <md-card-subtitle>Softs skills</md-card-subtitle>
+              <md-card-content>
+                <ul>
+                    <li class="three" mdTooltip="Jug, BBL, directions"><div class="comp-label">Présentation techique&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="8"></md-slider></li>
+                    <li class="three" mdTooltip="Coaching tech, bests practises"><div class="comp-label">Tech/Team Lead&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="7"></md-slider></li>
+                    <li class="three"><div class="comp-label">DevOps&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="8"></md-slider></li>
+                    <li class="three"><div class="comp-label">Gestion de projets&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="7"></md-slider></li>
+                    <li class="three"><div class="comp-label">Chiffrage&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="7"></md-slider></li>
+                    <li class="three"><div class="comp-label">Support&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="7"></md-slider></li>
+                    <li class="three"><div class="comp-label">Scrum&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="7"></md-slider></li>
+                    <li class="three"><div class="comp-label">KanBan&nbsp;: </div><md-slider class="adrien-slider" min="1" max="10" step="1" value="8"></md-slider></li>
                 </ul>
               </md-card-content>
             </md-card>
       </div>
       <div id="experiences" #experiences>
           <md-card class="adrien-card">
-              <md-card-title><md-icon style="margin-right: 10px;">assignment</md-icon>Expériences</md-card-title>
+              <md-card-title class="adrien-md-title"><md-icon class="adrien-md-title-icon">assignment</md-icon>Expériences</md-card-title>
               <md-card-content>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </md-card-content>
@@ -71,7 +168,7 @@
       </div>
       <div id="formations" #formations>
           <md-card class="adrien-card">
-              <md-card-title><md-icon style="margin-right: 10px;">work</md-icon>Formation</md-card-title>
+              <md-card-title class="adrien-md-title"><md-icon class="adrien-md-title-icon">work</md-icon>Formation</md-card-title>
               <md-card-content>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
               </md-card-content>
@@ -80,8 +177,8 @@
                 </md-card-content>
           </md-card>
       </div>
-      <div style="height: 100px;">
-        &nbsp;
+      <div style="height: 100px;text-align: right">
+        Copyright © 2017 - Adrien Pessu&nbsp;
       </div>
     </md-sidenav-container>
   </div>
