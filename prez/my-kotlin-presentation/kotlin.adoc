@@ -1,0 +1,295 @@
+:revealjs_theme: beige
+:imagesdir: img
+:revealjs_slideNumber: true
+:revealjs_mouseWheel: true
+:revealjs_previewLinks: true
+
+= Kotlin
+
+* Le Java qu'on voudrait avoir
+
+== Adrien Pessu
+
+== Kotlin, c'est quoi?
+
+image:jetbrains.png[jetBrains,150,role="right"]
+
+[NOTE.speaker]
+--
+Langage de programmation orienté objet et fonctionnel
+
+Typage static - JVM & Javascript
+
+Créer par JetBrain à Saint-Pétersbourg en Russie en 2011
+
+Apache2
+
+Rapport à scala, java groovy
+
+Google I/O 2017
+
+--
+
+== Le langage
+
+[NOTE.speaker]
+--
+
+syntaxe courte
+immutabilité
+null check
+
+--
+
+=== Déclaration de variables
+
+[source,kotlin,subs="quotes"]
+----
+val name: String = "adrien"
+
+var comment: String = """ Ceci
+est
+un commentaire écrit par  ${name}"""
+----
+
+
+=== Déclaration fonctions
+
+[source,kotlin,subs="quotes"]
+----
+fun myName(nom: String, prenom: String) : String =
+  "${nom} ${prenom}"
+----
+
+=== lambda / It
+[source,kotlin,subs="quotes"]
+----
+strings
+  .filter { it.length == 5 }
+  .sortedBy { it }
+  .map { it.toUpperCase() }
+----
+
+=== Null
+
+[source,kotlin,subs="quotes"]
+----
+val city = user?.adress?
+  .city ?: throw IllegalArgumentException("Invalid User")
+----
+
+[source,kotlin,subs="quotes"]
+----
+findOrder()?.let { dun(it.customer) }
+----
+
+=== class
+[source,kotlin,subs="quotes"]
+----
+class UserServices(val name: String, val age: Int) {
+  var credentials: Credentials;
+  fun getUsers()...
+}
+----
+
+=== Data class
+[source,kotlin,subs="quotes"]
+----
+data class User(val name: String, val age: Int)
+----
+
+=== Object class
+[source,kotlin,subs="quotes"]
+----
+object class MySingleton
+----
+
+[NOTE.speaker]
+--
+Pas de constructeur
+--
+
+=== Paramètre facultatif
+[source,kotlin,subs="quotes"]
+----
+fun printHello(name: String?): Unit {
+  if (name != null)
+    println("Hello ${name}")
+  else
+   println("Hi there!")
+}
+----
+
+=== Valeur par defaut
+[source,kotlin,subs="quotes"]
+----
+fun read(b: Array<Byte>, off: Int = 0, len: Int = b.size) {
+...
+}
+----
+
+=== If
+
+[source,kotlin,subs="quotes"]
+----
+val max = if (a > b) {
+  print("Choose a")
+  a
+} else {
+  print("Choose b")
+  b
+}
+----
+
+=== when
+[source,kotlin,subs="quotes"]
+----
+when (x) {
+  1 -> print("x == 1")
+  2 -> print("x == 2")
+  3, 4 -> print("x == 3 or 4")
+  else -> { // Note the block
+    print("x is neither 1 nor 2")
+  }
+}
+----
+
+=== try catch
+[source,kotlin,subs="quotes"]
+----
+val a: Int = try {
+  parseInt(input)
+}
+catch (e: NumberFormatException) {
+  42
+}
+----
+
+=== extensions
+[source,kotlin,subs="quotes"]
+----
+class Hero {
+  fun useSuperpowers() {
+    println("Applied super powers")
+  }
+}
+
+fun Hero.savePlanet() {
+  useSuperpowers()
+}
+
+val superman = Hero()
+superman.savePlanet()
+----
+
+[NOTE.speaker]
+--
+
+C#
+
+--
+
+=== val number = 1..100
+
+[source,kotlin,subs="quotes"]
+----
+for (i in 1..4) print(i)
+----
+
+=== named argument
+[source,kotlin,subs="quotes"]
+----
+people.copy(age = 32)
+----
+
+=== lazy . lateinit
+[source,kotlin,subs="quotes"]
+----
+public class Hello{
+  val myLazyString: String by lazy { "Hello" }
+
+  lateinit var mock: Mock
+
+  @SetUp fun setup() {
+    mock = Mock()
+  }
+
+  @Test fun test() {
+     mock.do()
+  }
+}
+----
+[NOTE.speaker]
+--
+lazy fournit un lambda
+
+late init : evite d'initialiser la variable
+
+--
+
+=== Kotlin Standard Library
+
+[source,kotlin,subs="quotes"]
+----
+"test".isNotBlank()
+----
+
+=== emoji in method names
+[source,kotlin,subs="quotes"]
+----
+fun&nbsp;`Jug rocks 😊 `() : String {...}
+----
+
+=== Pour aller plus loin
+
+[%step]
+* Fonctionnelle
+* Thread
+* Coroutine
+* Companion
+
+== Day-to-day
+
+=== Lib Java
+
+image:Spring-Boot.png[SpringBoot,150,role="right"]
+
+=== Env dev
+
+image:intellij.svg[IntelliJ,150,role="right"]
+
+[NOTE.speaker]
+--
+Il existe un plugin kotlin for eclipse fournit par JetBrains
+--
+
+== Qui utilise Kotlin
+
+[%step]
+* American Express
+* Basecamp
+* Trello
+* Hootsuite
+* Pinterest
+
+http://talkingkotlin.com/
+
+== Demo?
+
+[source,kotlin,subs="quotes"]
+----
+fun main(args: Array<String>) {
+  fun fibonacci (number: Int = 1) : Int =
+    when(number) {
+      1, 2 -> 1
+      else -> fibonacci(number - 1) + fibonacci(number - 2)
+    }
+  print(fibonacci(21));
+}
+----
+
+https://try.kotlinlang.org
+
+== Merci
+
+des questions?

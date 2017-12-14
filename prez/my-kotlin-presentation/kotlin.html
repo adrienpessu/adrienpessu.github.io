@@ -1,0 +1,168 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><title>Kotlin</title><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport"><link href="reveal.js/css/reveal.css" rel="stylesheet"><link rel="stylesheet" href="reveal.js/css/theme/beige.css" id="theme"><link href="reveal.js/lib/css/zenburn.css" rel="stylesheet"><script>document.write( '<link rel="stylesheet" href="reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );</script></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>Kotlin</h1><div class="preamble"><div class="ulist"><ul><li><p>Le Java qu&#8217;on voudrait avoir</p></li></ul></div></div></section>
+<section id="_adrien_pessu"><h2>Adrien Pessu</h2></section>
+<section id="_kotlin_c_est_quoi"><h2>Kotlin, c&#8217;est quoi?</h2><div class="paragraph"><p><span class="image right"><img src="img/jetbrains.png" alt="jetBrains" width="150"></span></p></div>
+<aside class="notes"><div class="paragraph"><p>Langage de programmation orienté objet et fonctionnel</p></div>
+<div class="paragraph"><p>Typage static - JVM &amp; Javascript</p></div>
+<div class="paragraph"><p>Créer par JetBrain à Saint-Pétersbourg en Russie en 2011</p></div>
+<div class="paragraph"><p>Apache2</p></div>
+<div class="paragraph"><p>Rapport à scala, java groovy</p></div>
+<div class="paragraph"><p>Google I/O 2017</p></div></aside></section>
+<section><section id="_le_langage"><h2>Le langage</h2><aside class="notes"><div class="paragraph"><p>syntaxe courte
+immutabilité
+null check</p></div></aside></section><section id="_dclaration_de_variables"><h2>Déclaration de variables</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">val name: String = "adrien"
+
+var comment: String = """ Ceci
+est
+un commentaire écrit par  ${name}"""</code></pre></div></div></section><section id="_dclaration_fonctions"><h2>Déclaration fonctions</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">fun myName(nom: String, prenom: String) : String =
+  "${nom} ${prenom}"</code></pre></div></div></section><section id="_lambda_it"><h2>lambda / It</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">strings
+  .filter { it.length == 5 }
+  .sortedBy { it }
+  .map { it.toUpperCase() }</code></pre></div></div></section><section id="_null"><h2>Null</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">val city = user?.adress?
+  .city ?: throw IllegalArgumentException("Invalid User")</code></pre></div></div>
+<div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">findOrder()?.let { dun(it.customer) }</code></pre></div></div></section><section id="_class"><h2>class</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">class UserServices(val name: String, val age: Int) {
+  var credentials: Credentials;
+  fun getUsers()...
+}</code></pre></div></div></section><section id="_data_class"><h2>Data class</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">data class User(val name: String, val age: Int)</code></pre></div></div></section><section id="_object_class"><h2>Object class</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">object class MySingleton</code></pre></div></div>
+<aside class="notes"><div class="paragraph"><p>Pas de constructeur</p></div></aside></section><section id="_paramtre_facultatif"><h2>Paramètre facultatif</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">fun printHello(name: String?): Unit {
+  if (name != null)
+    println("Hello ${name}")
+  else
+   println("Hi there!")
+}</code></pre></div></div></section><section id="_valeur_par_defaut"><h2>Valeur par defaut</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">fun read(b: Array<Byte>, off: Int = 0, len: Int = b.size) {
+...
+}</code></pre></div></div></section><section id="_if"><h2>If</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">val max = if (a > b) {
+  print("Choose a")
+  a
+} else {
+  print("Choose b")
+  b
+}</code></pre></div></div></section><section id="_when"><h2>when</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">when (x) {
+  1 -> print("x == 1")
+  2 -> print("x == 2")
+  3, 4 -> print("x == 3 or 4")
+  else -> { // Note the block
+    print("x is neither 1 nor 2")
+  }
+}</code></pre></div></div></section><section id="_try_catch"><h2>try catch</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">val a: Int = try {
+  parseInt(input)
+}
+catch (e: NumberFormatException) {
+  42
+}</code></pre></div></div></section><section id="_extensions"><h2>extensions</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">class Hero {
+  fun useSuperpowers() {
+    println("Applied super powers")
+  }
+}
+
+fun Hero.savePlanet() {
+  useSuperpowers()
+}
+
+val superman = Hero()
+superman.savePlanet()</code></pre></div></div>
+<aside class="notes"><div class="paragraph"><p>C#</p></div></aside></section><section id="_val_number_1_100"><h2>val number = 1..100</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">for (i in 1..4) print(i)</code></pre></div></div></section><section id="_named_argument"><h2>named argument</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">people.copy(age = 32)</code></pre></div></div></section><section id="_lazy_lateinit"><h2>lazy . lateinit</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">public class Hello{
+  val myLazyString: String by lazy { "Hello" }
+
+  lateinit var mock: Mock
+
+  @SetUp fun setup() {
+    mock = Mock()
+  }
+
+  @Test fun test() {
+     mock.do()
+  }
+}</code></pre></div></div>
+<aside class="notes"><div class="paragraph"><p>lazy fournit un lambda</p></div>
+<div class="paragraph"><p>late init : evite d&#8217;initialiser la variable</p></div></aside></section><section id="_kotlin_standard_library"><h2>Kotlin Standard Library</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">"test".isNotBlank()</code></pre></div></div></section><section id="_emoji_in_method_names"><h2>emoji in method names</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">fun&nbsp;`Jug rocks 😊 `() : String {...}</code></pre></div></div></section><section id="_pour_aller_plus_loin"><h2>Pour aller plus loin</h2><div class="ulist"><ul><li class="fragment"><p>Fonctionnelle</p></li><li class="fragment"><p>Thread</p></li><li class="fragment"><p>Coroutine</p></li><li class="fragment"><p>Companion</p></li></ul></div></section></section>
+<section><section id="_day_to_day"><h2>Day-to-day</h2></section><section id="_lib_java"><h2>Lib Java</h2><div class="paragraph"><p><span class="image right"><img src="img/Spring-Boot.png" alt="SpringBoot" width="150"></span></p></div></section><section id="_env_dev"><h2>Env dev</h2><div class="paragraph"><p><span class="image right"><img src="img/intellij.svg" alt="IntelliJ" width="150"></span></p></div>
+<aside class="notes"><div class="paragraph"><p>Il existe un plugin kotlin for eclipse fournit par JetBrains</p></div></aside></section></section>
+<section id="_qui_utilise_kotlin"><h2>Qui utilise Kotlin</h2><div class="ulist"><ul><li class="fragment"><p>American Express</p></li><li class="fragment"><p>Basecamp</p></li><li class="fragment"><p>Trello</p></li><li class="fragment"><p>Hootsuite</p></li><li class="fragment"><p>Pinterest</p></li></ul></div>
+<div class="paragraph"><p><a href="http://talkingkotlin.com/" class="bare">http://talkingkotlin.com/</a></p></div></section>
+<section id="_demo"><h2>Demo?</h2><div class="listingblock"><div class="content"><pre class="highlight"><code class="kotlin language-kotlin">fun main(args: Array<String>) {
+  fun fibonacci (number: Int = 1) : Int =
+    when(number) {
+      1, 2 -> 1
+      else -> fibonacci(number - 1) + fibonacci(number - 2)
+    }
+  print(fibonacci(21));
+}</code></pre></div></div>
+<div class="paragraph"><p><a href="https://try.kotlinlang.org" class="bare">https://try.kotlinlang.org</a></p></div></section>
+<section id="_merci"><h2>Merci</h2><div class="paragraph"><p>des questions?</p></div></section></div></div><script src="reveal.js/lib/js/head.min.js"></script><script src="reveal.js/js/reveal.js"></script><script>// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+Reveal.initialize({
+  // Display controls in the bottom right corner
+  controls: true,
+  // Display a presentation progress bar
+  progress: true,
+  // Display the page number of the current slide
+  slideNumber: true,
+  // Push each slide change to the browser history
+  history: false,
+  // Enable keyboard shortcuts for navigation
+  keyboard: true,
+  // Enable the slide overview mode
+  overview: true,
+  // Vertical centering of slides
+  center: true,
+  // Enables touch navigation on devices with touch input
+  touch: true,
+  // Loop the presentation
+  loop: false,
+  // Change the presentation direction to be RTL
+  rtl: false,
+  // Turns fragments on and off globally
+  fragments: true,
+  // Flags if the presentation is running in an embedded mode,
+  // i.e. contained within a limited portion of the screen
+  embedded: false,
+  // Number of milliseconds between automatically proceeding to the
+  // next slide, disabled when set to 0, this value can be overwritten
+  // by using a data-autoslide attribute on your slides
+  autoSlide: 0,
+  // Stop auto-sliding after user input
+  autoSlideStoppable: true,
+  // Enable slide navigation via mouse wheel
+  mouseWheel: true,
+  // Hides the address bar on mobile devices
+  hideAddressBar: true,
+  // Opens links in an iframe preview overlay
+  previewLinks: true,
+  // Theme (e.g., beige, black, league, night, serif, simple, sky, solarized, white)
+  // NOTE setting the theme in the config no longer works in reveal.js 3.x
+  //theme: Reveal.getQueryHash().theme || 'beige',
+  // Transition style (e.g., none, fade, slide, convex, concave, zoom)
+  transition: Reveal.getQueryHash().transition || 'slide',
+  // Transition speed (e.g., default, fast, slow)
+  transitionSpeed: 'default',
+  // Transition style for full page slide backgrounds (e.g., none, fade, slide, convex, concave, zoom)
+  backgroundTransition: 'fade',
+  // Number of slides away from the current that are visible
+  viewDistance: 3,
+  // Parallax background image (e.g., "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
+  parallaxBackgroundImage: '',
+  // Parallax background size in CSS syntax (e.g., "2100px 900px")
+  parallaxBackgroundSize: '',
+
+  // The "normal" size of the presentation, aspect ratio will be preserved
+  // when the presentation is scaled to fit different resolutions. Can be
+  // specified using percentage units.
+  width: 960,
+  height: 700,
+
+  // Factor of the display size that should remain empty around the content
+  margin: 0.1,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.2,
+  maxScale: 1.5,
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+      { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      
+      { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+});</script></body></html>
