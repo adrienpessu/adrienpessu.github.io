@@ -9,10 +9,7 @@ jobs:
     steps:
       - run: apk update && apk add git
       - checkout
-      - run: apk add --update python python-dev py-pip build-base
-      - run: pip install awscli
       - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
-      - add_ssh_keys
       - deploy:
           name: Trigger deployment
           working_directory: ~/adrien.pessu.net/public
