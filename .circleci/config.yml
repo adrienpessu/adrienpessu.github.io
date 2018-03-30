@@ -12,7 +12,7 @@ jobs:
           command: pwd && ls -l
       - run:
           name: "Run Hugo"
-          command: hugo -v -s ~/adrien.pessu.net -d ~/adrien.pessu.net/public
+          command: hugo -v -s adrien.pessu.net -d adrien.pessu.net/public
       - deploy:
           name: Trigger deployment
           command: |
