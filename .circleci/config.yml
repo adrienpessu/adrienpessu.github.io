@@ -1,0 +1,25 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: cibuilds/hugo:latest
+    working_directory: ~/adrien.pessu.net
+    environment:
+      HUGO_BUILD_DIR: ~/adrien.pessu.net/public
+    steps:
+      - run: apk update && apk add git
+      - checkout
+      - run: apk add --update python python-dev py-pip build-base
+      - run: pip install awscli
+      - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
+      - add_ssh_keys
+      - deploy:
+          name: Trigger deployment
+          working_directory: ~/adrien.pessu.net/public
+          command: |
+            git config credential.helper 'cache --timeout=120'
+            git config user.email "a.pessu@gmail.com"
+            git config user.name "Deployment Bot"
+            git commit --allow-empty -m "Trigger deployment"
+            # Push quietly to prevent showing the token in log
+            git push -q https://github.com/adrienpessu/adrienpessu.github.io master
