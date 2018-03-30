@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cibuilds/hugo:latest
+      - image: felicianotech/docker-hugo:0.21
     working_directory: ~/adrien.pessu.net
     environment:
       HUGO_BUILD_DIR: ~/adrien.pessu.net/public
