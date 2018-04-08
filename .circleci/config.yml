@@ -11,13 +11,13 @@ jobs:
           command: pwd && ls -l
       - run:
           name: "Run Hugo"
-          command: hugo -v 
-      - deploy:
-          name: Trigger deployment
-          command: |
-            git config credential.helper 'cache --timeout=120'
-            git config user.email "a.pessu@gmail.com"
-            git config user.name "Deployment Bot"
-            git commit --allow-empty -m "Trigger deployment"
+          command: hugo -v
+#      - deploy:
+#          name: Trigger deployment
+#          command: |
+#            git config credential.helper 'cache --timeout=120'
+#            git config user.email "a.pessu@gmail.com"
+#            git config user.name "Deployment Bot"
+#            git commit --allow-empty -m "Trigger deployment"
             # Push quietly to prevent showing the token in log
-            git push
+#            git push

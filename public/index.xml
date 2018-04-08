@@ -11,22 +11,36 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Kotlin</title>
-      <link>/talk/kotlin/</link>
-      <pubDate>Sat, 16 Dec 2017 16:05:41 +0100</pubDate>
+      <title>Kotlin, le back du futur - la conf</title>
+      <link>/talk/kotlin-conf-bzh/</link>
+      <pubDate>Sat, 24 Feb 2018 16:05:41 +0100</pubDate>
       
-      <guid>/talk/kotlin/</guid>
-      <description>&lt;p&gt;Je vais vous présenter le langage Kotlin, ses concepts principaux et sa syntaxe compacte par rapport à Java. Je vous montrerai en exemple une application Spring boot développée en Kotlin.&lt;/p&gt;
+      <guid>/talk/kotlin-conf-bzh/</guid>
+      <description>&lt;p&gt;Depuis l’annonce par Google du support de Kotlin sur Android, les développeurs d&amp;rsquo;applications mobiles se sont fortement intéressés à ce langage récent. Mais &amp;ldquo;Nom de Zeus !&amp;rdquo; est ce réservé aux développeurs mobiles ? Non, Non et Non. Kotlin tourne sur la JVM alors autant en profiter dans tout nos projets.&lt;/p&gt;
+
+&lt;p&gt;Au travers de cette conférence nous te présenterons les principaux avantages du langage. Que ce soit les data class, les extensions, les arguments nommés&amp;hellip; Nous profiterons également d&amp;rsquo;un bout de code pour te montrer qu&amp;rsquo;il est simple de faire une API avec Spring et Kotlin.&lt;/p&gt;
+
+&lt;p&gt;Pas encore persuadé que cette conférence est fait pour toi ? Regarde ces avis de développeurs qui sont déjà passés nous voir.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Kotlin, le back du futur - le codelab</title>
       <link>/talk/kotlin-codelab/</link>
-      <pubDate>Sat, 16 Dec 2017 16:05:41 +0100</pubDate>
+      <pubDate>Sat, 24 Feb 2018 16:05:41 +0100</pubDate>
       
       <guid>/talk/kotlin-codelab/</guid>
       <description>&lt;p&gt;Depuis l’annonce par Google du support de Kotlin sur Android, les développeurs d&amp;rsquo;applications mobiles se sont fortement intéressés à ce langage récent. Mais &lt;strong&gt;&amp;ldquo;Non de Zeus !&amp;rdquo;&lt;/strong&gt; est ce réservé aux développeurs mobiles ? Non, Non et Non. Kotlin tourne sur la JVM alors autant en profiter dans tout nos projets. Viens nous rejoindre pour découvrir toutes les facettes de ton futur prochain langage préféré. A travers plusieurs exercices tu apprendras à transformer ton vieux Java en Kotlin puis à penser directement en Kotlin pour plus de &lt;strong&gt;&amp;ldquo;fun&amp;rdquo;&lt;/strong&gt; et moins de &amp;ldquo;void&amp;rdquo;. Pas encore persuadé que ce codelab est fait pour toi ? Regarde ces avis de développeurs déjà convaincus.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kotlin</title>
+      <link>/talk/kotlin/</link>
+      <pubDate>Sat, 16 Dec 2017 16:05:41 +0100</pubDate>
+      
+      <guid>/talk/kotlin/</guid>
+      <description>&lt;p&gt;Je vais vous présenter le langage Kotlin, ses concepts principaux et sa syntaxe compacte par rapport à Java. Je vous montrerai en exemple une application Spring boot développée en Kotlin.&lt;/p&gt;
 </description>
     </item>
     
