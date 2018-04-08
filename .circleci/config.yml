@@ -3,7 +3,6 @@ jobs:
   build:
     docker:
       - image: felicianotech/docker-hugo:latest
-    working_directory: ~/adrien.pessu.net
     steps:
       - run: apk update && apk add git
       - checkout
@@ -12,7 +11,7 @@ jobs:
           command: pwd && ls -l
       - run:
           name: "Run Hugo"
-          command: hugo -v -s adrien.pessu.net -d adrien.pessu.net/public
+          command: hugo -v 
       - deploy:
           name: Trigger deployment
           command: |
@@ -21,4 +20,4 @@ jobs:
             git config user.name "Deployment Bot"
             git commit --allow-empty -m "Trigger deployment"
             # Push quietly to prevent showing the token in log
-            git push 
+            git push

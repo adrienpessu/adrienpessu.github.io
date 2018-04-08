@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adrien PESSU on Adrien PESSU</title>
+    <link>/</link>
+    <description>Recent content in Adrien PESSU on Adrien PESSU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>&amp;copy; 2018 Adrien Pessu</copyright>
+    <lastBuildDate>Tue, 05 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Kotlin</title>
+      <link>/talk/kotlin/</link>
+      <pubDate>Sat, 16 Dec 2017 16:05:41 +0100</pubDate>
+      
+      <guid>/talk/kotlin/</guid>
+      <description>&lt;p&gt;Je vais vous présenter le langage Kotlin, ses concepts principaux et sa syntaxe compacte par rapport à Java. Je vous montrerai en exemple une application Spring boot développée en Kotlin.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kotlin, le back du futur - le codelab</title>
+      <link>/talk/kotlin-codelab/</link>
+      <pubDate>Sat, 16 Dec 2017 16:05:41 +0100</pubDate>
+      
+      <guid>/talk/kotlin-codelab/</guid>
+      <description>&lt;p&gt;Depuis l’annonce par Google du support de Kotlin sur Android, les développeurs d&amp;rsquo;applications mobiles se sont fortement intéressés à ce langage récent. Mais &lt;strong&gt;&amp;ldquo;Non de Zeus !&amp;rdquo;&lt;/strong&gt; est ce réservé aux développeurs mobiles ? Non, Non et Non. Kotlin tourne sur la JVM alors autant en profiter dans tout nos projets. Viens nous rejoindre pour découvrir toutes les facettes de ton futur prochain langage préféré. A travers plusieurs exercices tu apprendras à transformer ton vieux Java en Kotlin puis à penser directement en Kotlin pour plus de &lt;strong&gt;&amp;ldquo;fun&amp;rdquo;&lt;/strong&gt; et moins de &amp;ldquo;void&amp;rdquo;. Pas encore persuadé que ce codelab est fait pour toi ? Regarde ces avis de développeurs déjà convaincus.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Keendoo</title>
+      <link>/post/keendoo/</link>
+      <pubDate>Sat, 16 Dec 2017 16:03:27 +0100</pubDate>
+      
+      <guid>/post/keendoo/</guid>
+      <description>&lt;p&gt;test&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lead dev, Keendoo</title>
+      <link>/project/keendoo/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/project/keendoo/</guid>
+      <description>&lt;p&gt;Lead developer chez Keendoo, éditeur d’un Product Lifecycle and Information Manager pour l’industrie agro-alimentaire
+Analyse et développement de nouvelles fonctionnalités
+Support client
+Mise en place de l’intégration et le déploiement continu
+Lead d’une équipe de développement sur un nouveau produit&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>BitBucket pipeline</title>
+      <link>/talk/bitbucket/</link>
+      <pubDate>Fri, 16 Jun 2017 16:05:41 +0100</pubDate>
+      
+      <guid>/talk/bitbucket/</guid>
+      <description>&lt;p&gt;Pourquoi est-ce que j&amp;rsquo;ai choisi BitBucket Pipeline?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DropWizard, for the rest of us</title>
+      <link>/talk/dropwizard/</link>
+      <pubDate>Thu, 16 Jun 2016 16:05:41 +0100</pubDate>
+      
+      <guid>/talk/dropwizard/</guid>
+      <description>&lt;p&gt;Avec l&amp;rsquo;essor de l’architecture Microservice, DropWizard est un framework idéal pour développer des services REST.
+Je vous présenterai la simplicité de mise en place d&amp;rsquo;un microservice REST, ainsi que les possibilités du framework léger et robuste qu&amp;rsquo;est DropWizard.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ingénieur étude et développement, OnePoint</title>
+      <link>/project/onepoint/</link>
+      <pubDate>Tue, 30 Jun 2015 16:05:26 +0100</pubDate>
+      
+      <guid>/project/onepoint/</guid>
+      <description>&lt;p&gt;Ingénieur étude et développement chez OnePoint.
+Réalisation de prestations d’assistances techniques chez plusieurs clients grands comptes sur des missions allant de 2 mois à 2 ans :
+Chiffrage, analyse, développement et support chez un éditeur de logiciels de transport
+Responsable d’application, analyse et développement d’une application RH pour l’administration
+Conception technique et développement d’un système d’information d’un acteur de la grande distribution
+Développement et support de niveau 3 d’une application de finance pour une administration
+Développement sur une application de gestion de création de ligne téléphonique&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Formateur, Esaip ITII</title>
+      <link>/project/formation/</link>
+      <pubDate>Sat, 02 Feb 2013 16:05:26 +0100</pubDate>
+      
+      <guid>/project/formation/</guid>
+      <description>&lt;p&gt;Création de support de cours, animation de formation et évaluation pour des étudiants de dernière d’école d’ingénieurs (ESAIP, ITII) pour le module J2ee et Web Services.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stage de fin d&#39;étude, Cap gémini</title>
+      <link>/project/capgemini/</link>
+      <pubDate>Tue, 01 Sep 2009 16:05:26 +0100</pubDate>
+      
+      <guid>/project/capgemini/</guid>
+      <description>&lt;p&gt;Stage développement d’un système d’information géographique chez Capgémini&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

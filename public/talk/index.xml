@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Adrien PESSU</title>
+    <link>/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Adrien PESSU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>&amp;copy; 2018 Adrien Pessu</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kotlin</title>
+      <link>/talk/kotlin/</link>
+      <pubDate>Sat, 16 Dec 2017 16:05:41 +0100</pubDate>
+      
+      <guid>/talk/kotlin/</guid>
+      <description>Je vais vous présenter le langage Kotlin, ses concepts principaux et sa syntaxe compacte par rapport à Java. Je vous montrerai en exemple une application Spring boot développée en Kotlin.</description>
+    </item>
+    
+    <item>
+      <title>Kotlin, le back du futur - le codelab</title>
+      <link>/talk/kotlin-codelab/</link>
+      <pubDate>Sat, 16 Dec 2017 16:05:41 +0100</pubDate>
+      
+      <guid>/talk/kotlin-codelab/</guid>
+      <description>Depuis l’annonce par Google du support de Kotlin sur Android, les développeurs d&amp;rsquo;applications mobiles se sont fortement intéressés à ce langage récent. Mais &amp;ldquo;Non de Zeus !&amp;rdquo; est ce réservé aux développeurs mobiles ? Non, Non et Non. Kotlin tourne sur la JVM alors autant en profiter dans tout nos projets. Viens nous rejoindre pour découvrir toutes les facettes de ton futur prochain langage préféré. A travers plusieurs exercices tu apprendras à transformer ton vieux Java en Kotlin puis à penser directement en Kotlin pour plus de &amp;ldquo;fun&amp;rdquo; et moins de &amp;ldquo;void&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>BitBucket pipeline</title>
+      <link>/talk/bitbucket/</link>
+      <pubDate>Fri, 16 Jun 2017 16:05:41 +0100</pubDate>
+      
+      <guid>/talk/bitbucket/</guid>
+      <description>Pourquoi est-ce que j&amp;rsquo;ai choisi BitBucket Pipeline?</description>
+    </item>
+    
+    <item>
+      <title>DropWizard, for the rest of us</title>
+      <link>/talk/dropwizard/</link>
+      <pubDate>Thu, 16 Jun 2016 16:05:41 +0100</pubDate>
+      
+      <guid>/talk/dropwizard/</guid>
+      <description>Avec l&amp;rsquo;essor de l’architecture Microservice, DropWizard est un framework idéal pour développer des services REST. Je vous présenterai la simplicité de mise en place d&amp;rsquo;un microservice REST, ainsi que les possibilités du framework léger et robuste qu&amp;rsquo;est DropWizard.</description>
+    </item>
+    
+  </channel>
+</rss>

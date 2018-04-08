@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>A publication title, such as title of a paper on Adrien PESSU</title>
+    <link>/post/</link>
+    <description>Recent content in A publication title, such as title of a paper on Adrien PESSU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>&amp;copy; 2018 Adrien Pessu</copyright>
+    <lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Keendoo</title>
+      <link>/post/keendoo/</link>
+      <pubDate>Sat, 16 Dec 2017 16:03:27 +0100</pubDate>
+      
+      <guid>/post/keendoo/</guid>
+      <description>test</description>
+    </item>
+    
+  </channel>
+</rss>
