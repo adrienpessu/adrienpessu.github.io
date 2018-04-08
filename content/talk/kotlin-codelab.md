@@ -1,6 +1,6 @@
 +++
 title = "Kotlin, le back du futur - le codelab"
-date = 2017-12-16T16:05:41+01:00  # Schedule page publish date.
+date = 2018-02-24T16:05:41+01:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
