@@ -38,5 +38,10 @@ filter_default = 0
 #   tag = ".demo"
 
 +++
-- Diplôme d'ingénieur (CTI) à L'Esaip en 2009
-- BTS informatique de gestion option développeur d'application à la Joliverie en 2006
+Je dispense aussi des formations de développement.
+Les thèmes sont les suivant : 
+
+* Java 8/9/10, tout niveau
+* Spring, tout niveau
+* Angular, débutant et intermédiaire
+* Git, tout niveau

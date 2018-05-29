@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Adrien PESSU</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Adrien PESSU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>&amp;copy; 2018 Adrien Pessu</copyright>
+    <lastBuildDate>Tue, 30 Jun 2015 16:05:26 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Analyse</title>
+      <link>/tags/analyse/</link>
+      <pubDate>Tue, 30 Jun 2015 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/analyse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Angular</title>
+      <link>/tags/angular/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/angular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BreizhCamp</title>
+      <link>/tags/breizhcamp/</link>
+      <pubDate>Sat, 24 Feb 2018 16:05:41 +0100</pubDate>
+      
+      <guid>/tags/breizhcamp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conf</title>
+      <link>/tags/conf/</link>
+      <pubDate>Sat, 24 Feb 2018 16:05:41 +0100</pubDate>
+      
+      <guid>/tags/conf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Continuous integration</title>
+      <link>/tags/continuous-integration/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/continuous-integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deployment</title>
+      <link>/tags/deployment/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/deployment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>/tags/devops/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DropWizard</title>
+      <link>/tags/dropwizard/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/dropwizard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Développement</title>
+      <link>/tags/d%C3%A9veloppement/</link>
+      <pubDate>Tue, 30 Jun 2015 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/d%C3%A9veloppement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Esaip</title>
+      <link>/tags/esaip/</link>
+      <pubDate>Sat, 02 Feb 2013 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/esaip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ITII</title>
+      <link>/tags/itii/</link>
+      <pubDate>Sat, 02 Feb 2013 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/itii/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>J2ee</title>
+      <link>/tags/j2ee/</link>
+      <pubDate>Sat, 02 Feb 2013 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/j2ee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JQuery</title>
+      <link>/tags/jquery/</link>
+      <pubDate>Tue, 01 Sep 2009 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/jquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JUG</title>
+      <link>/tags/jug/</link>
+      <pubDate>Sat, 16 Dec 2017 16:05:41 +0100</pubDate>
+      
+      <guid>/tags/jug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java</title>
+      <link>/tags/java/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>/tags/javascript/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Keendoo</title>
+      <link>/tags/keendoo/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/keendoo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kotlin</title>
+      <link>/tags/kotlin/</link>
+      <pubDate>Sat, 24 Feb 2018 16:05:41 +0100</pubDate>
+      
+      <guid>/tags/kotlin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lead</title>
+      <link>/tags/lead/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/lead/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nantes</title>
+      <link>/tags/nantes/</link>
+      <pubDate>Sat, 16 Dec 2017 16:05:41 +0100</pubDate>
+      
+      <guid>/tags/nantes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nexus</title>
+      <link>/tags/nexus/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/nexus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Php</title>
+      <link>/tags/php/</link>
+      <pubDate>Tue, 30 Jun 2015 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Polymer</title>
+      <link>/tags/polymer/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/polymer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Postgres</title>
+      <link>/tags/postgres/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/postgres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rundeck</title>
+      <link>/tags/rundeck/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/rundeck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SIG</title>
+      <link>/tags/sig/</link>
+      <pubDate>Tue, 01 Sep 2009 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/sig/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sonar</title>
+      <link>/tags/sonar/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/sonar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TouraineTech</title>
+      <link>/tags/tourainetech/</link>
+      <pubDate>Sat, 24 Feb 2018 16:05:41 +0100</pubDate>
+      
+      <guid>/tags/tourainetech/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

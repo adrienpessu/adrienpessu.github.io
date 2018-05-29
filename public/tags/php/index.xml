@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Php on Adrien PESSU</title>
+    <link>/tags/php/</link>
+    <description>Recent content in Php on Adrien PESSU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>&amp;copy; 2018 Adrien Pessu</copyright>
+    <lastBuildDate>Tue, 30 Jun 2015 16:05:26 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ingénieur étude et développement, OnePoint</title>
+      <link>/project/onepoint/</link>
+      <pubDate>Tue, 30 Jun 2015 16:05:26 +0100</pubDate>
+      
+      <guid>/project/onepoint/</guid>
+      <description>Ingénieur étude et développement chez OnePoint. Réalisation de prestations d’assistances techniques chez plusieurs clients grands comptes sur des missions allant de 2 mois à 2 ans : Chiffrage, analyse, développement et support chez un éditeur de logiciels de transport Responsable d’application, analyse et développement d’une application RH pour l’administration Conception technique et développement d’un système d’information d’un acteur de la grande distribution Développement et support de niveau 3 d’une application de finance pour une administration Développement sur une application de gestion de création de ligne téléphonique</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DropWizard on Adrien PESSU</title>
+    <link>/tags/dropwizard/</link>
+    <description>Recent content in DropWizard on Adrien PESSU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <copyright>&amp;copy; 2018 Adrien Pessu</copyright>
+    <lastBuildDate>Sat, 12 Aug 2017 16:05:26 +0100</lastBuildDate>
+    
+	<atom:link href="/tags/dropwizard/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lead dev, Keendoo</title>
+      <link>/project/keendoo/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/project/keendoo/</guid>
+      <description>Lead developer chez Keendoo, éditeur d’un Product Lifecycle and Information Manager pour l’industrie agro-alimentaire Analyse et développement de nouvelles fonctionnalités Support client Mise en place de l’intégration et le déploiement continu Lead d’une équipe de développement sur un nouveau produit</description>
+    </item>
+    
+    <item>
+      <title>DropWizard, for the rest of us</title>
+      <link>/talk/dropwizard/</link>
+      <pubDate>Thu, 16 Jun 2016 16:05:41 +0100</pubDate>
+      
+      <guid>/talk/dropwizard/</guid>
+      <description>Avec l&amp;rsquo;essor de l’architecture Microservice, DropWizard est un framework idéal pour développer des services REST. Je vous présenterai la simplicité de mise en place d&amp;rsquo;un microservice REST, ainsi que les possibilités du framework léger et robuste qu&amp;rsquo;est DropWizard.</description>
+    </item>
+    
+  </channel>
+</rss>
