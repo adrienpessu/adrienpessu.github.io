@@ -281,3 +281,26 @@ defaultContentLanguageInSubdir = false
 #  languageCode = "en-us"
 [Languages.fr]
   languageCode = "fr"
+
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = false
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = true
+    simple = false
+  [privacy.speakerDeck]
+    disable = true
+  [privacy.twitter]
+    disable = false
+    enableDNT = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true
