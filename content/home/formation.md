@@ -39,7 +39,7 @@ filter_default = 0
 
 +++
 Je dispense aussi des formations de développement.
-Les thèmes sont les suivant : 
+Les thèmes sont les suivants : 
 
 * Java 8/9/10, tout niveau
 * Spring, tout niveau
