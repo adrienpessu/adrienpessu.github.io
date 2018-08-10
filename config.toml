@@ -250,10 +250,10 @@ defaultContentLanguageInSubdir = false
   name = "Contact"
   url = "#contact"
   weight = 4
-#[[menu.main]]
-#  name = "Publications"
-#  url = "#publications_selected"
-#  weight = 2
+[[menu.main]]
+  name = "Talks"
+  url = "#talks"
+  weight = 5
 
 #[[menu.main]]
 #  name = "Posts"
