@@ -245,15 +245,17 @@ defaultContentLanguageInSubdir = false
   name = "Formation"
   url = "#formation"
   weight = 3
-
-[[menu.main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 4
+  
 [[menu.main]]
   name = "Talks"
   url = "#talks"
+  weight = 4
+  
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
   weight = 5
+
 
 #[[menu.main]]
 #  name = "Posts"
