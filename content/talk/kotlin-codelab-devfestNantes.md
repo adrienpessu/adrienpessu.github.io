@@ -33,7 +33,7 @@ tags = ["Conf", "devfest", "Kotlin", "Nantes", "ktor"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = "https://bttf-kotlin.github.io/kotlin-codelab-slides/"
+url_slides = "https://bttf-kotlin.github.io/kotlin-conf-slides/codelab.html"
 url_video = ""
 url_code = "https://github.com/bttf-kotlin/kotlin-codelab-ktor"
 
