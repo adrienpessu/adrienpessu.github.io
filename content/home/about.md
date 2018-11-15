@@ -30,13 +30,12 @@ weight = 5
 
 # Présentation
 
-Je suis développeur indépendant et passionné de développement.
-J'aide les entreprises dans l'architecture et le développement de leurs projets.
-J'aide l'équipe projet à mettre en place les bonnes pratiques pour améliorer la qualité et diminuer les coûts.
+Je suis indépendant et passionné de développement.
+J'aide l'équipe projet à mettre en place les bonnes pratiques pour développer plus vite, améliorer la qualité et diminuer les coûts.
 
 Missions : 
 
+* Lead dev (Intégration continue, Bests practices, Java, Javascript)
 * Architecte logiciel (Conception technique, Java, Javascript)
 * Expert technique (Java)
-* Lead dev (Intégration continue, Bests practices, Java, Javascript)
 * Développeur sénior (Java, Kotlin, Javascript, multitechnologique)
