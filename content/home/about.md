@@ -36,7 +36,7 @@ J'aide l'équipe projet à mettre en place les bonnes pratiques pour développer
 
 Sollicitez-moi pour venir faire une présentation technique dans votre entreprise.
 
-Missions : 
+## Missions : 
 
 * Lead dev (Intégration continue, Bests practices, Java, Javascript)
 * Architecte logiciel (Conception technique, Java, Javascript)
