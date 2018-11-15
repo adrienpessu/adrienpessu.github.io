@@ -31,7 +31,10 @@ weight = 5
 # Présentation
 
 Je suis indépendant et passionné de développement.
+
 J'aide l'équipe projet à mettre en place les bonnes pratiques pour développer plus vite, améliorer la qualité et diminuer les coûts.
+
+Sollicitez-moi pour venir faire une présentation technique dans votre entreprise.
 
 Missions : 
 
