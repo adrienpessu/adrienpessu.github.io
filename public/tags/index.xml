@@ -42,27 +42,9 @@
     <item>
       <title>Conf</title>
       <link>/tags/conf/</link>
-      <pubDate>Sat, 24 Feb 2018 16:05:41 +0100</pubDate>
+      <pubDate>Wed, 07 Nov 2018 12:05:41 +0100</pubDate>
       
       <guid>/tags/conf/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Continuous integration</title>
-      <link>/tags/continuous-integration/</link>
-      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
-      
-      <guid>/tags/continuous-integration/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deployment</title>
-      <link>/tags/deployment/</link>
-      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
-      
-      <guid>/tags/deployment/</guid>
       <description></description>
     </item>
     
@@ -85,24 +67,6 @@
     </item>
     
     <item>
-      <title>Développement</title>
-      <link>/tags/d%C3%A9veloppement/</link>
-      <pubDate>Tue, 30 Jun 2015 16:05:26 +0100</pubDate>
-      
-      <guid>/tags/d%C3%A9veloppement/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Esaip</title>
-      <link>/tags/esaip/</link>
-      <pubDate>Sat, 02 Feb 2013 16:05:26 +0100</pubDate>
-      
-      <guid>/tags/esaip/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ITII</title>
       <link>/tags/itii/</link>
       <pubDate>Sat, 02 Feb 2013 16:05:26 +0100</pubDate>
@@ -121,20 +85,20 @@
     </item>
     
     <item>
-      <title>JQuery</title>
-      <link>/tags/jquery/</link>
-      <pubDate>Tue, 01 Sep 2009 16:05:26 +0100</pubDate>
-      
-      <guid>/tags/jquery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>JUG</title>
       <link>/tags/jug/</link>
       <pubDate>Sat, 16 Dec 2017 16:05:41 +0100</pubDate>
       
       <guid>/tags/jug/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JUGSummerCamp</title>
+      <link>/tags/jugsummercamp/</link>
+      <pubDate>Fri, 14 Sep 2018 16:05:41 +0100</pubDate>
+      
+      <guid>/tags/jugsummercamp/</guid>
       <description></description>
     </item>
     
@@ -168,7 +132,7 @@
     <item>
       <title>Kotlin</title>
       <link>/tags/kotlin/</link>
-      <pubDate>Sat, 24 Feb 2018 16:05:41 +0100</pubDate>
+      <pubDate>Wed, 07 Nov 2018 12:05:41 +0100</pubDate>
       
       <guid>/tags/kotlin/</guid>
       <description></description>
@@ -186,7 +150,7 @@
     <item>
       <title>Nantes</title>
       <link>/tags/nantes/</link>
-      <pubDate>Sat, 16 Dec 2017 16:05:41 +0100</pubDate>
+      <pubDate>Wed, 07 Nov 2018 12:05:41 +0100</pubDate>
       
       <guid>/tags/nantes/</guid>
       <description></description>
@@ -198,15 +162,6 @@
       <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
       
       <guid>/tags/nexus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Php</title>
-      <link>/tags/php/</link>
-      <pubDate>Tue, 30 Jun 2015 16:05:26 +0100</pubDate>
-      
-      <guid>/tags/php/</guid>
       <description></description>
     </item>
     
@@ -225,15 +180,6 @@
       <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
       
       <guid>/tags/postgres/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rundeck</title>
-      <link>/tags/rundeck/</link>
-      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
-      
-      <guid>/tags/rundeck/</guid>
       <description></description>
     </item>
     
@@ -261,6 +207,96 @@
       <pubDate>Sat, 24 Feb 2018 16:05:41 +0100</pubDate>
       
       <guid>/tags/tourainetech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bbl</title>
+      <link>/tags/bbl/</link>
+      <pubDate>Wed, 07 Nov 2018 12:05:41 +0100</pubDate>
+      
+      <guid>/tags/bbl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>continuous integration</title>
+      <link>/tags/continuous-integration/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/continuous-integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deployment</title>
+      <link>/tags/deployment/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/deployment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>devfest</title>
+      <link>/tags/devfest/</link>
+      <pubDate>Sat, 24 Feb 2018 16:05:41 +0100</pubDate>
+      
+      <guid>/tags/devfest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>développement</title>
+      <link>/tags/d%C3%A9veloppement/</link>
+      <pubDate>Tue, 30 Jun 2015 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/d%C3%A9veloppement/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>esaip</title>
+      <link>/tags/esaip/</link>
+      <pubDate>Sat, 02 Feb 2013 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/esaip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jQuery</title>
+      <link>/tags/jquery/</link>
+      <pubDate>Tue, 01 Sep 2009 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/jquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ktor</title>
+      <link>/tags/ktor/</link>
+      <pubDate>Wed, 07 Nov 2018 12:05:41 +0100</pubDate>
+      
+      <guid>/tags/ktor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>php</title>
+      <link>/tags/php/</link>
+      <pubDate>Tue, 30 Jun 2015 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/php/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rundeck</title>
+      <link>/tags/rundeck/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/rundeck/</guid>
       <description></description>
     </item>
     

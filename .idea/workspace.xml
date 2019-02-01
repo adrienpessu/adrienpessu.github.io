@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00e346b8-8b6f-4620-b665-4d3734a7d3ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/home/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/home/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/hugo-academic.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/hugo-academic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/post/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/post/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/post/keendoo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/post/keendoo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/post/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/post/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/project/capgemini/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/project/capgemini/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/project/formation/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/project/formation/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/project/keendoo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/project/keendoo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/project/onepoint/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/project/onepoint/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/publication/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/publication/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/publication_types/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/publication_types/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/publication_types/1/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/publication_types/1/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/publication_types/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/publication_types/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/publication_types/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/publication_types/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/analyse/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/analyse/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/analyse/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/analyse/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/angular/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/angular/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/angular/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/angular/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/breizhcamp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/breizhcamp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/breizhcamp/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/breizhcamp/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/conf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/conf/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/conf/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/conf/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/conf/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/conf/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/continuous-integration/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/continuous-integration/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/continuous-integration/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/continuous-integration/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/continuous-integration/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/continuous-integration/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/deployment/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/deployment/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/deployment/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/deployment/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/deployment/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/deployment/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/devops/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/devops/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/devops/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/devops/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/dropwizard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/dropwizard/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/dropwizard/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/dropwizard/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/développement/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/développement/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/développement/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/développement/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/développement/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/développement/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/esaip/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/esaip/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/esaip/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/esaip/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/esaip/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/esaip/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/itii/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/itii/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/itii/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/itii/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/j2ee/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/j2ee/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/j2ee/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/j2ee/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/java/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/java/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/java/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/java/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/javascript/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/javascript/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/javascript/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/jquery/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/jquery/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/jquery/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/jquery/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/jquery/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/jquery/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/jug/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/jug/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/jug/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/jug/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/keendoo/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/keendoo/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/keendoo/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/keendoo/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/kotlin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/kotlin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/kotlin/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/kotlin/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/kotlin/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/kotlin/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/lead/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/lead/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/lead/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/lead/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/nantes/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/nantes/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/nantes/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/nantes/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/nantes/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/nantes/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/nexus/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/nexus/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/nexus/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/nexus/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/php/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/php/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/php/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/php/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/php/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/php/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/polymer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/polymer/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/polymer/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/polymer/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/postgres/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/postgres/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/postgres/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/postgres/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/rundeck/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/rundeck/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/rundeck/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/rundeck/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/rundeck/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/rundeck/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/sig/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/sig/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/sig/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/sig/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/sonar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/sonar/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/sonar/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/sonar/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/tourainetech/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/tourainetech/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tags/tourainetech/page/1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tags/tourainetech/page/1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/talk/bitbucket/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/talk/bitbucket/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/talk/dropwizard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/talk/dropwizard/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/talk/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/talk/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/talk/index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/public/talk/index.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/talk/kotlin-codelab/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/talk/kotlin-codelab/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/talk/kotlin-conf-bzh/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/talk/kotlin-conf-bzh/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/talk/kotlin/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/talk/kotlin/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/academic.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/academic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/archetypes/default.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/archetypes/default.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/archetypes/home.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/archetypes/home.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/archetypes/post.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/archetypes/project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/archetypes/publication.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/archetypes/talk.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/data/i18n/languages.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/data/i18n/languages.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/data/sri.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/data/themes/default.toml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/data/themes/default.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/exampleSite/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/content/home/contact.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/exampleSite/content/home/contact.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/content/home/hero.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/exampleSite/content/home/hero.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/content/home/posts.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/exampleSite/content/home/posts.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/content/home/projects.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/exampleSite/content/home/projects.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/content/home/publications.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/exampleSite/content/home/publications.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/content/home/publications_selected.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/exampleSite/content/home/publications_selected.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/content/home/talks.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/exampleSite/content/home/talks.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/content/post/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/exampleSite/content/post/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/content/post/getting-started.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/content/project/deep-learning.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/content/project/example-external-project.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/content/publication/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/exampleSite/content/publication/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/content/publication/clothing-search.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/content/publication/person-re-identification.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/content/tags/academic/_index.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/content/talk/_index.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/exampleSite/content/talk/_index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/content/talk/example-talk.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/static/files/citations/clothing-search.bib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/static/img/bubbles.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/exampleSite/static/img/headers/getting-started.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/i18n/de.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/i18n/de.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/i18n/en.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/i18n/en.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/i18n/it.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/i18n/it.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/i18n/zh.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/i18n/zh.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/_default/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/_default/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/_default/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/_default/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/article_metadata.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/cookie_consent.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/cookie_consent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/css/academic.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/css/academic.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/css/parse_theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/css/parse_theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/footer_container.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/footer_container.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/header_image.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/post_li.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/post_li_detailed.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/post_li_detailed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/post_li_simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/post_li_simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/publication_li_apa.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/publication_li_apa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/publication_li_detailed.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/publication_li_detailed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/publication_li_mla.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/publication_li_mla.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/publication_li_simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/publication_li_simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/publication_links.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/publication_links.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/share.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/share.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/talk_li_detailed.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/talk_li_detailed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/talk_li_simple.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/talk_li_simple.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/talk_links.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/talk_links.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/widget_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/widget_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/custom.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/custom.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/featurette.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/featurette.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/hero.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/publications.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/publications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/publications_selected.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/publications_selected.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/tag_cloud.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/tag_cloud.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/talks.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/talks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/talks_selected.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/partials/widgets/talks_selected.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/project/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/project/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/publication/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/publication/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/section/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/section/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/section/project.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/section/publication.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/section/publication.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/section/talk.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/section/talk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/shortcodes/figure.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/shortcodes/figure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/shortcodes/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/shortcodes/gallery.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/shortcodes/gdocs.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/shortcodes/gdocs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/shortcodes/staticref.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/shortcodes/staticref.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/shortcodes/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/shortcodes/video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/layouts/talk/single.html" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/layouts/talk/single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/static/js/hugo-academic.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/static/js/hugo-academic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/academic/theme.toml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/academic/theme.toml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="301503711">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="toml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="toml" value="38" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="38" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.run.usages" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.toml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="220" column="18" selection-start-line="220" selection-start-column="18" selection-end-line="220" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>adrien</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/config.toml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="adrienpessu.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adrienpessu.github.io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adrienpessu.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adrienpessu.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="adrienpessu.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="adrienpessu.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="academic" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540930067318" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/config.toml" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../My_Website/themes/academic" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00e346b8-8b6f-4620-b665-4d3734a7d3ec" name="Default Changelist" comment="" />
+      <created>1540923647597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540923647597</updated>
+      <workItem from="1540923648998" duration="1165000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1165000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="220" column="18" selection-start-line="220" selection-start-column="18" selection-end-line="220" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

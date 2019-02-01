@@ -47,7 +47,7 @@ defaultContentLanguageInSubdir = false
   organizations = [ { name = "Freelance", url = "https://adrien.pessu.net" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "adrien_02.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "me.LD.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "adrien@pessu.net"
   address = ""
   office_hours = ""
@@ -208,19 +208,19 @@ defaultContentLanguageInSubdir = false
     link = "mailto:adrien@pessu.net"
 
   [[params.social]]
-    icon = "twitter"
+    icon = "dove"
     icon_pack = "fa"
-    link = "//twitter.com/adrien_pe"
+    link = "https://twitter.com/adrien_pe"
 
   [[params.social]]
-    icon = "linkedin"
+    icon = "suitcase"
     icon_pack = "fa"
     link = "https://www.linkedin.com/in/adrien-pessu/"
 
   [[params.social]]
-    icon = "github"
+    icon = "laptop"
     icon_pack = "fa"
-    link = "//github.com/adrienpessu"
+    link = "https://github.com/adrienpessu"
 
 
 # Navigation Links

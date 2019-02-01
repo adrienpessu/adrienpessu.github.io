@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>Kotlin, le back du futur - le codelab</title>
+      <link>/talk/kotlin-codelab-bbl/</link>
+      <pubDate>Wed, 07 Nov 2018 12:05:41 +0100</pubDate>
+      
+      <guid>/talk/kotlin-codelab-bbl/</guid>
+      <description>Depuis l’annonce par Google du support de Kotlin sur Android, les développeurs d&amp;rsquo;applications mobiles se sont fortement intéressés à ce langage récent. Mais &amp;ldquo;Non de Zeus !&amp;rdquo; est ce réservé aux développeurs mobiles ? Non, Non et Non. Kotlin tourne sur la JVM alors autant en profiter dans tout nos projets. Viens nous rejoindre pour découvrir toutes les facettes de ton futur prochain langage préféré.</description>
+    </item>
+    
+    <item>
+      <title>Kotlin, le back du futur - le codelab</title>
+      <link>/talk/kotlin-codelab-jugsummer/</link>
+      <pubDate>Fri, 14 Sep 2018 16:05:41 +0100</pubDate>
+      
+      <guid>/talk/kotlin-codelab-jugsummer/</guid>
+      <description>Depuis l’annonce par Google du support de Kotlin sur Android, les développeurs d&amp;rsquo;applications mobiles se sont fortement intéressés à ce langage récent. Mais &amp;ldquo;Nom de Zeus !&amp;rdquo; est ce réservé aux développeurs mobiles ? Non, Non et Non. Kotlin tourne sur la JVM alors autant en profiter dans tout nos projets. Viens nous rejoindre pour découvrir toutes les facettes de ton futur prochain langage préféré. A travers plusieurs exercices tu apprendras à transformer ton vieux Java en Kotlin puis à penser directement en Kotlin pour plus de &amp;ldquo;fun&amp;rdquo; et moins de &amp;ldquo;void&amp;rdquo;.</description>
+    </item>
+    
+    <item>
       <title>Kotlin, le back du futur - la conf</title>
       <link>/talk/kotlin-conf-bzh/</link>
       <pubDate>Sat, 24 Feb 2018 16:05:41 +0100</pubDate>
@@ -20,6 +38,15 @@
       <guid>/talk/kotlin-conf-bzh/</guid>
       <description>Depuis l’annonce par Google du support de Kotlin sur Android, les développeurs d&amp;rsquo;applications mobiles se sont fortement intéressés à ce langage récent. Mais &amp;ldquo;Nom de Zeus !&amp;rdquo; est ce réservé aux développeurs mobiles ? Non, Non et Non. Kotlin tourne sur la JVM alors autant en profiter dans tout nos projets.
 Au travers de cette conférence nous te présenterons les principaux avantages du langage. Que ce soit les data class, les extensions, les arguments nommés&amp;hellip; Nous profiterons également d&amp;rsquo;un bout de code pour te montrer qu&amp;rsquo;il est simple de faire une API avec Spring et Kotlin.</description>
+    </item>
+    
+    <item>
+      <title>Kotlin, le back du futur - le codelab</title>
+      <link>/talk/kotlin-codelab-devfestnantes/</link>
+      <pubDate>Sat, 24 Feb 2018 16:05:41 +0100</pubDate>
+      
+      <guid>/talk/kotlin-codelab-devfestnantes/</guid>
+      <description>Depuis l’annonce par Google du support de Kotlin sur Android, les développeurs d&amp;rsquo;applications mobiles se sont fortement intéressés à ce langage récent. Mais &amp;ldquo;Non de Zeus !&amp;rdquo; est ce réservé aux développeurs mobiles ? Non, Non et Non. Kotlin tourne sur la JVM alors autant en profiter dans tout nos projets. Viens nous rejoindre pour découvrir toutes les facettes de ton futur prochain langage préféré. A travers plusieurs exercices tu apprendras à transformer ton vieux Java en Kotlin puis à penser directement en Kotlin pour plus de &amp;ldquo;fun&amp;rdquo; et moins de &amp;ldquo;void&amp;rdquo;.</description>
     </item>
     
     <item>

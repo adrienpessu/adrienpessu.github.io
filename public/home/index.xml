@@ -18,9 +18,10 @@
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>/home/about/</guid>
-      <description> Présentation Je suis développeur indépendant. J&amp;rsquo;aide les entreprises dans l&amp;rsquo;architecture et le développement de leurs projets. J&amp;rsquo;aide l&amp;rsquo;équipe projet à mettre en place les bonnes pratiques pour améliorer la qualité et diminuer les coûts.
-Missions :
- Architecte logiciel (Conception technique, Java, Javascript) Expert technique (Java) Lead dev (Intégration continue, Bests practices, Java, Javascript) Développeur sénior (Java, Javascript, multitechnologique)  </description>
+      <description> Présentation Je suis indépendant et passionné de développement.
+J&amp;rsquo;aide l&amp;rsquo;équipe projet à mettre en place les bonnes pratiques pour développer plus vite, améliorer la qualité et diminuer les coûts.
+Sollicitez-moi pour venir faire une présentation technique dans votre entreprise.
+Missions :  Lead dev (Intégration continue, Bests practices, Java, Javascript) Architecte logiciel (Conception technique, Java, Javascript) Expert technique (Java) Développeur sénior (Java, Kotlin, Javascript, multitechnologique)  </description>
     </item>
     
     <item>
@@ -47,7 +48,7 @@ Missions :
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
       
       <guid>/home/formation/</guid>
-      <description>Je dispense aussi des formations de développement. Les thèmes sont les suivant :
+      <description>Je dispense aussi des formations de développement. Les thèmes sont les suivants :
  Java 8/9/10, tout niveau Spring, tout niveau Angular, débutant et intermédiaire Git, tout niveau  </description>
     </item>
     
