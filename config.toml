@@ -1,6 +1,6 @@
 baseurl = "/"  # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 title = "Adrien PESSU"
-copyright = "&copy; 2018 Adrien Pessu"
+copyright = "&copy; 2019 Adrien Pessu"
 theme = "academic"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
@@ -47,7 +47,7 @@ defaultContentLanguageInSubdir = false
   organizations = [ { name = "Freelance", url = "https://adrien.pessu.net" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
-  avatar = "me.LD.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
+  avatar = "me.LD2.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "adrien@pessu.net"
   address = ""
   office_hours = ""
