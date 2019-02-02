@@ -6,11 +6,20 @@
     <description>Recent content in rundeck on Adrien PESSU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <copyright>&amp;copy; 2018 Adrien Pessu</copyright>
+    <copyright>&amp;copy; 2019 Adrien Pessu</copyright>
     <lastBuildDate>Sat, 12 Aug 2017 16:05:26 +0100</lastBuildDate>
     
 	<atom:link href="/tags/rundeck/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Expert Java - Freelance</title>
+      <link>/project/keendoo-freelance/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/project/keendoo-freelance/</guid>
+      <description>Expert Java Passge de connaissance</description>
+    </item>
     
     <item>
       <title>Lead dev, Keendoo</title>

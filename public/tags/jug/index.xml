@@ -6,11 +6,20 @@
     <description>Recent content in JUG on Adrien PESSU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <copyright>&amp;copy; 2018 Adrien Pessu</copyright>
-    <lastBuildDate>Sat, 16 Dec 2017 16:05:41 +0100</lastBuildDate>
+    <copyright>&amp;copy; 2019 Adrien Pessu</copyright>
+    <lastBuildDate>Fri, 14 Sep 2018 16:05:41 +0100</lastBuildDate>
     
 	<atom:link href="/tags/jug/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Kotlin, le back du futur - le codelab</title>
+      <link>/talk/kotlin-codelab-jugmontpellier/</link>
+      <pubDate>Fri, 14 Sep 2018 16:05:41 +0100</pubDate>
+      
+      <guid>/talk/kotlin-codelab-jugmontpellier/</guid>
+      <description>Depuis l’annonce par Google du support de Kotlin sur Android, les développeurs d&amp;rsquo;applications mobiles se sont fortement intéressés à ce langage récent. Mais &amp;ldquo;Nom de Zeus !&amp;rdquo; est ce réservé aux développeurs mobiles ? Non, Non et Non. Kotlin tourne sur la JVM alors autant en profiter dans tout nos projets. Viens nous rejoindre pour découvrir toutes les facettes de ton futur prochain langage préféré. A travers plusieurs exercices tu apprendras à transformer ton vieux Java en Kotlin puis à penser directement en Kotlin pour plus de &amp;ldquo;fun&amp;rdquo; et moins de &amp;ldquo;void&amp;rdquo;.</description>
+    </item>
     
     <item>
       <title>Kotlin</title>

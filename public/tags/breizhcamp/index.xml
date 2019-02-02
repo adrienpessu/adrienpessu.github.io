@@ -6,7 +6,7 @@
     <description>Recent content in BreizhCamp on Adrien PESSU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <copyright>&amp;copy; 2018 Adrien Pessu</copyright>
+    <copyright>&amp;copy; 2019 Adrien Pessu</copyright>
     <lastBuildDate>Sat, 24 Feb 2018 16:05:41 +0100</lastBuildDate>
     
 	<atom:link href="/tags/breizhcamp/index.xml" rel="self" type="application/rss+xml" />
@@ -18,6 +18,16 @@
       <pubDate>Sat, 24 Feb 2018 16:05:41 +0100</pubDate>
       
       <guid>/talk/kotlin-conf-bzh/</guid>
+      <description>Depuis l’annonce par Google du support de Kotlin sur Android, les développeurs d&amp;rsquo;applications mobiles se sont fortement intéressés à ce langage récent. Mais &amp;ldquo;Nom de Zeus !&amp;rdquo; est ce réservé aux développeurs mobiles ? Non, Non et Non. Kotlin tourne sur la JVM alors autant en profiter dans tout nos projets.
+Au travers de cette conférence nous te présenterons les principaux avantages du langage. Que ce soit les data class, les extensions, les arguments nommés&amp;hellip; Nous profiterons également d&amp;rsquo;un bout de code pour te montrer qu&amp;rsquo;il est simple de faire une API avec Spring et Kotlin.</description>
+    </item>
+    
+    <item>
+      <title>Kotlin, le back du futur - la conf</title>
+      <link>/talk/kotlin-conf-lavajug/</link>
+      <pubDate>Sat, 24 Feb 2018 16:05:41 +0100</pubDate>
+      
+      <guid>/talk/kotlin-conf-lavajug/</guid>
       <description>Depuis l’annonce par Google du support de Kotlin sur Android, les développeurs d&amp;rsquo;applications mobiles se sont fortement intéressés à ce langage récent. Mais &amp;ldquo;Nom de Zeus !&amp;rdquo; est ce réservé aux développeurs mobiles ? Non, Non et Non. Kotlin tourne sur la JVM alors autant en profiter dans tout nos projets.
 Au travers de cette conférence nous te présenterons les principaux avantages du langage. Que ce soit les data class, les extensions, les arguments nommés&amp;hellip; Nous profiterons également d&amp;rsquo;un bout de code pour te montrer qu&amp;rsquo;il est simple de faire une API avec Spring et Kotlin.</description>
     </item>

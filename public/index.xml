@@ -6,9 +6,43 @@
     <description>Recent content in Adrien PESSU on Adrien PESSU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <copyright>&amp;copy; 2018 Adrien Pessu</copyright>
+    <copyright>&amp;copy; 2019 Adrien Pessu</copyright>
     <lastBuildDate>Tue, 05 Dec 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CORS, XSS, CSRF, SQL injection #BackToTheBasics</title>
+      <link>/talk/cors-xss-devfestparis/</link>
+      <pubDate>Fri, 01 Feb 2019 12:20:41 +0100</pubDate>
+      
+      <guid>/talk/cors-xss-devfestparis/</guid>
+      <description>&lt;p&gt;Pas besoin d&amp;rsquo;être RSSI ou DevOpsSec pour se soucier de sécurité. Que l&amp;rsquo;on soit développeur back ou front, la sécurité est l&amp;rsquo;affaire de tous.
+Pourtant, on la confie souvent aveuglement à nos frameworks. Mais alors comment vérifier la sécurité de nos données et de nos utilisateurs.
+A travers quelques démos, nous allons voir les failles les plus basiques et pourtant les plus répandus : CORS, XSS, CSRF et SQL injection&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>CORS, XSS, CSRF, SQL injection #BackToTheBasics</title>
+      <link>/talk/cors-xss-tourainetech/</link>
+      <pubDate>Fri, 01 Feb 2019 12:20:41 +0100</pubDate>
+      
+      <guid>/talk/cors-xss-tourainetech/</guid>
+      <description>&lt;p&gt;Pas besoin d&amp;rsquo;être RSSI ou DevOpsSec pour se soucier de sécurité. Que l&amp;rsquo;on soit développeur back ou front, la sécurité est l&amp;rsquo;affaire de tous.
+Pourtant, on la confie souvent aveuglement à nos frameworks. Mais alors comment vérifier la sécurité de nos données et de nos utilisateurs.
+A travers quelques démos, nous allons voir les failles les plus basiques et pourtant les plus répandus : CORS, XSS, CSRF et SQL injection&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lead developper - Freelance</title>
+      <link>/project/client-confidientiel-freelance.1/</link>
+      <pubDate>Tue, 01 Jan 2019 16:05:26 +0100</pubDate>
+      
+      <guid>/project/client-confidientiel-freelance.1/</guid>
+      <description>&lt;p&gt;Conception et developpement d&amp;rsquo;un POC d&amp;rsquo;une plateforme d&amp;rsquo;échange d&amp;rsquo;energie renouvelable en mode Agile.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Kotlin, le back du futur - le codelab</title>
@@ -17,6 +51,16 @@
       
       <guid>/talk/kotlin-codelab-bbl/</guid>
       <description>&lt;p&gt;Depuis l’annonce par Google du support de Kotlin sur Android, les développeurs d&amp;rsquo;applications mobiles se sont fortement intéressés à ce langage récent. Mais &lt;strong&gt;&amp;ldquo;Non de Zeus !&amp;rdquo;&lt;/strong&gt; est ce réservé aux développeurs mobiles ? Non, Non et Non. Kotlin tourne sur la JVM alors autant en profiter dans tout nos projets. Viens nous rejoindre pour découvrir toutes les facettes de ton futur prochain langage préféré.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kotlin, le back du futur - le codelab</title>
+      <link>/talk/kotlin-codelab-jugmontpellier/</link>
+      <pubDate>Fri, 14 Sep 2018 16:05:41 +0100</pubDate>
+      
+      <guid>/talk/kotlin-codelab-jugmontpellier/</guid>
+      <description>&lt;p&gt;Depuis l’annonce par Google du support de Kotlin sur Android, les développeurs d&amp;rsquo;applications mobiles se sont fortement intéressés à ce langage récent. Mais &lt;strong&gt;&amp;ldquo;Nom de Zeus !&amp;rdquo;&lt;/strong&gt; est ce réservé aux développeurs mobiles ? Non, Non et Non. Kotlin tourne sur la JVM alors autant en profiter dans tout nos projets. Viens nous rejoindre pour découvrir toutes les facettes de ton futur prochain langage préféré. A travers plusieurs exercices tu apprendras à transformer ton vieux Java en Kotlin puis à penser directement en Kotlin pour plus de &lt;strong&gt;&amp;ldquo;fun&amp;rdquo;&lt;/strong&gt; et moins de &amp;ldquo;void&amp;rdquo;. Pas encore persuadé que ce codelab est fait pour toi ? Regarde ces avis de développeurs déjà convaincus.&lt;/p&gt;
 </description>
     </item>
     
@@ -31,11 +75,35 @@
     </item>
     
     <item>
+      <title>Expert Java - Freelance</title>
+      <link>/project/client-confidientiel-freelance/</link>
+      <pubDate>Mon, 02 Apr 2018 16:05:26 +0100</pubDate>
+      
+      <guid>/project/client-confidientiel-freelance/</guid>
+      <description>&lt;p&gt;Développeur expert sur une application Spring permettant de configurer des formulaires entièrement dynamique&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Kotlin, le back du futur - la conf</title>
       <link>/talk/kotlin-conf-bzh/</link>
       <pubDate>Sat, 24 Feb 2018 16:05:41 +0100</pubDate>
       
       <guid>/talk/kotlin-conf-bzh/</guid>
+      <description>&lt;p&gt;Depuis l’annonce par Google du support de Kotlin sur Android, les développeurs d&amp;rsquo;applications mobiles se sont fortement intéressés à ce langage récent. Mais &amp;ldquo;Nom de Zeus !&amp;rdquo; est ce réservé aux développeurs mobiles ? Non, Non et Non. Kotlin tourne sur la JVM alors autant en profiter dans tout nos projets.&lt;/p&gt;
+
+&lt;p&gt;Au travers de cette conférence nous te présenterons les principaux avantages du langage. Que ce soit les data class, les extensions, les arguments nommés&amp;hellip; Nous profiterons également d&amp;rsquo;un bout de code pour te montrer qu&amp;rsquo;il est simple de faire une API avec Spring et Kotlin.&lt;/p&gt;
+
+&lt;p&gt;Pas encore persuadé que cette conférence est fait pour toi ? Regarde ces avis de développeurs qui sont déjà passés nous voir.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Kotlin, le back du futur - la conf</title>
+      <link>/talk/kotlin-conf-lavajug/</link>
+      <pubDate>Sat, 24 Feb 2018 16:05:41 +0100</pubDate>
+      
+      <guid>/talk/kotlin-conf-lavajug/</guid>
       <description>&lt;p&gt;Depuis l’annonce par Google du support de Kotlin sur Android, les développeurs d&amp;rsquo;applications mobiles se sont fortement intéressés à ce langage récent. Mais &amp;ldquo;Nom de Zeus !&amp;rdquo; est ce réservé aux développeurs mobiles ? Non, Non et Non. Kotlin tourne sur la JVM alors autant en profiter dans tout nos projets.&lt;/p&gt;
 
 &lt;p&gt;Au travers de cette conférence nous te présenterons les principaux avantages du langage. Que ce soit les data class, les extensions, les arguments nommés&amp;hellip; Nous profiterons également d&amp;rsquo;un bout de code pour te montrer qu&amp;rsquo;il est simple de faire une API avec Spring et Kotlin.&lt;/p&gt;
@@ -85,6 +153,17 @@
     </item>
     
     <item>
+      <title>Expert Java - Freelance</title>
+      <link>/project/keendoo-freelance/</link>
+      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      
+      <guid>/project/keendoo-freelance/</guid>
+      <description>&lt;p&gt;Expert Java
+Passge de connaissance&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Lead dev, Keendoo</title>
       <link>/project/keendoo/</link>
       <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
@@ -95,63 +174,6 @@ Analyse et développement de nouvelles fonctionnalités
 Support client
 Mise en place de l’intégration et le déploiement continu
 Lead d’une équipe de développement sur un nouveau produit&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>BitBucket pipeline</title>
-      <link>/talk/bitbucket/</link>
-      <pubDate>Fri, 16 Jun 2017 16:05:41 +0100</pubDate>
-      
-      <guid>/talk/bitbucket/</guid>
-      <description>&lt;p&gt;Pourquoi est-ce que j&amp;rsquo;ai choisi BitBucket Pipeline?&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DropWizard, for the rest of us</title>
-      <link>/talk/dropwizard/</link>
-      <pubDate>Thu, 16 Jun 2016 16:05:41 +0100</pubDate>
-      
-      <guid>/talk/dropwizard/</guid>
-      <description>&lt;p&gt;Avec l&amp;rsquo;essor de l’architecture Microservice, DropWizard est un framework idéal pour développer des services REST.
-Je vous présenterai la simplicité de mise en place d&amp;rsquo;un microservice REST, ainsi que les possibilités du framework léger et robuste qu&amp;rsquo;est DropWizard.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Ingénieur étude et développement, OnePoint</title>
-      <link>/project/onepoint/</link>
-      <pubDate>Tue, 30 Jun 2015 16:05:26 +0100</pubDate>
-      
-      <guid>/project/onepoint/</guid>
-      <description>&lt;p&gt;Ingénieur étude et développement chez OnePoint.
-Réalisation de prestations d’assistances techniques chez plusieurs clients grands comptes sur des missions allant de 2 mois à 2 ans :
-Chiffrage, analyse, développement et support chez un éditeur de logiciels de transport
-Responsable d’application, analyse et développement d’une application RH pour l’administration
-Conception technique et développement d’un système d’information d’un acteur de la grande distribution
-Développement et support de niveau 3 d’une application de finance pour une administration
-Développement sur une application de gestion de création de ligne téléphonique&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Formateur, Esaip ITII</title>
-      <link>/project/formation/</link>
-      <pubDate>Sat, 02 Feb 2013 16:05:26 +0100</pubDate>
-      
-      <guid>/project/formation/</guid>
-      <description>&lt;p&gt;Création de support de cours, animation de formation et évaluation pour des étudiants de dernière d’école d’ingénieurs (ESAIP, ITII) pour le module J2ee et Web Services.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Stage de fin d&#39;étude, Cap gémini</title>
-      <link>/project/capgemini/</link>
-      <pubDate>Tue, 01 Sep 2009 16:05:26 +0100</pubDate>
-      
-      <guid>/project/capgemini/</guid>
-      <description>&lt;p&gt;Stage développement d’un système d’information géographique chez Capgémini&lt;/p&gt;
 </description>
     </item>
     

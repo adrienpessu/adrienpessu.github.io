@@ -4,8 +4,40 @@
     
     <url>
     
+      <loc>/talk/cors-xss-devfestparis/</loc>
+      <lastmod>2019-02-01T12:20:41+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/talk/cors-xss-tourainetech/</loc>
+      <lastmod>2019-02-01T12:20:41+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/project/client-confidientiel-freelance.1/</loc>
+      <lastmod>2019-01-01T16:05:26+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/talk/kotlin-codelab-bbl/</loc>
       <lastmod>2018-11-07T12:05:41+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/talk/kotlin-codelab-jugmontpellier/</loc>
+      <lastmod>2018-09-14T16:05:41+01:00</lastmod>
     </url>
     
   
@@ -20,7 +52,23 @@
     
     <url>
     
+      <loc>/project/client-confidientiel-freelance/</loc>
+      <lastmod>2018-04-02T16:05:26+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/talk/kotlin-conf-bzh/</loc>
+      <lastmod>2018-02-24T16:05:41+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/talk/kotlin-conf-lavajug/</loc>
       <lastmod>2018-02-24T16:05:41+01:00</lastmod>
     </url>
     
@@ -54,6 +102,14 @@
     
       <loc>/post/keendoo/</loc>
       <lastmod>2017-12-16T16:03:27+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/project/keendoo-freelance/</loc>
+      <lastmod>2017-08-12T16:05:26+01:00</lastmod>
     </url>
     
   
@@ -160,7 +216,7 @@
     <url>
     
       <loc>/tags/angular/</loc>
-      <lastmod>2017-08-12T16:05:26+01:00</lastmod>
+      <lastmod>2019-01-01T16:05:26+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -186,7 +242,7 @@
     <url>
     
       <loc>/tags/conf/</loc>
-      <lastmod>2018-11-07T12:05:41+01:00</lastmod>
+      <lastmod>2019-02-01T12:20:41+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -196,6 +252,15 @@
     
       <loc>/tags/devops/</loc>
       <lastmod>2017-08-12T16:05:26+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/docker/</loc>
+      <lastmod>2019-01-01T16:05:26+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -231,7 +296,7 @@
     <url>
     
       <loc>/tags/jug/</loc>
-      <lastmod>2017-12-16T16:05:41+01:00</lastmod>
+      <lastmod>2018-09-14T16:05:41+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -249,7 +314,7 @@
     <url>
     
       <loc>/tags/java/</loc>
-      <lastmod>2017-08-12T16:05:26+01:00</lastmod>
+      <lastmod>2018-04-02T16:05:26+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -258,7 +323,7 @@
     <url>
     
       <loc>/tags/javascript/</loc>
-      <lastmod>2017-08-12T16:05:26+01:00</lastmod>
+      <lastmod>2018-04-02T16:05:26+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -293,6 +358,15 @@
     
     <url>
     
+      <loc>/tags/mongo/</loc>
+      <lastmod>2019-01-01T16:05:26+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/nantes/</loc>
       <lastmod>2018-11-07T12:05:41+01:00</lastmod>
       <priority>0</priority>
@@ -303,7 +377,16 @@
     <url>
     
       <loc>/tags/nexus/</loc>
-      <lastmod>2017-08-12T16:05:26+01:00</lastmod>
+      <lastmod>2018-04-02T16:05:26+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/node/</loc>
+      <lastmod>2019-01-01T16:05:26+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -330,7 +413,7 @@
     <url>
     
       <loc>/project/</loc>
-      <lastmod>2017-08-12T16:05:26+01:00</lastmod>
+      <lastmod>2019-01-01T16:05:26+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -357,7 +440,16 @@
     <url>
     
       <loc>/tags/sonar/</loc>
-      <lastmod>2017-08-12T16:05:26+01:00</lastmod>
+      <lastmod>2018-04-02T16:05:26+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/spring/</loc>
+      <lastmod>2018-04-02T16:05:26+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -383,6 +475,24 @@
     
     <url>
     
+      <loc>/tags/typescript/</loc>
+      <lastmod>2019-01-01T16:05:26+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/xss/</loc>
+      <lastmod>2019-02-01T12:20:41+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/bbl/</loc>
       <lastmod>2018-11-07T12:05:41+01:00</lastmod>
       <priority>0</priority>
@@ -394,6 +504,24 @@
     
       <loc>/tags/continuous-integration/</loc>
       <lastmod>2017-08-12T16:05:26+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/cors/</loc>
+      <lastmod>2019-02-01T12:20:41+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/csrf/</loc>
+      <lastmod>2019-02-01T12:20:41+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -446,8 +574,26 @@
     
     <url>
     
+      <loc>/tags/keycloak/</loc>
+      <lastmod>2019-01-01T16:05:26+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/ktor/</loc>
       <lastmod>2018-11-07T12:05:41+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/kubernetes/</loc>
+      <lastmod>2019-01-01T16:05:26+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -464,8 +610,44 @@
     
     <url>
     
+      <loc>/tags/remote/</loc>
+      <lastmod>2019-01-01T16:05:26+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>/tags/rundeck/</loc>
       <lastmod>2017-08-12T16:05:26+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/scrum/</loc>
+      <lastmod>2019-01-01T16:05:26+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/securite/</loc>
+      <lastmod>2019-02-01T12:20:41+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>/tags/sql/</loc>
+      <lastmod>2018-04-02T16:05:26+01:00</lastmod>
       <priority>0</priority>
     </url>
     

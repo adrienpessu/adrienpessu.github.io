@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Adrien PESSU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <copyright>&amp;copy; 2018 Adrien Pessu</copyright>
+    <copyright>&amp;copy; 2019 Adrien Pessu</copyright>
     <lastBuildDate>Tue, 30 Jun 2015 16:05:26 +0100</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -24,7 +24,7 @@
     <item>
       <title>Angular</title>
       <link>/tags/angular/</link>
-      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      <pubDate>Tue, 01 Jan 2019 16:05:26 +0100</pubDate>
       
       <guid>/tags/angular/</guid>
       <description></description>
@@ -42,7 +42,7 @@
     <item>
       <title>Conf</title>
       <link>/tags/conf/</link>
-      <pubDate>Wed, 07 Nov 2018 12:05:41 +0100</pubDate>
+      <pubDate>Fri, 01 Feb 2019 12:20:41 +0100</pubDate>
       
       <guid>/tags/conf/</guid>
       <description></description>
@@ -54,6 +54,15 @@
       <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
       
       <guid>/tags/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Tue, 01 Jan 2019 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/docker/</guid>
       <description></description>
     </item>
     
@@ -87,7 +96,7 @@
     <item>
       <title>JUG</title>
       <link>/tags/jug/</link>
-      <pubDate>Sat, 16 Dec 2017 16:05:41 +0100</pubDate>
+      <pubDate>Fri, 14 Sep 2018 16:05:41 +0100</pubDate>
       
       <guid>/tags/jug/</guid>
       <description></description>
@@ -105,7 +114,7 @@
     <item>
       <title>Java</title>
       <link>/tags/java/</link>
-      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      <pubDate>Mon, 02 Apr 2018 16:05:26 +0100</pubDate>
       
       <guid>/tags/java/</guid>
       <description></description>
@@ -114,7 +123,7 @@
     <item>
       <title>Javascript</title>
       <link>/tags/javascript/</link>
-      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      <pubDate>Mon, 02 Apr 2018 16:05:26 +0100</pubDate>
       
       <guid>/tags/javascript/</guid>
       <description></description>
@@ -148,6 +157,15 @@
     </item>
     
     <item>
+      <title>Mongo</title>
+      <link>/tags/mongo/</link>
+      <pubDate>Tue, 01 Jan 2019 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/mongo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nantes</title>
       <link>/tags/nantes/</link>
       <pubDate>Wed, 07 Nov 2018 12:05:41 +0100</pubDate>
@@ -159,9 +177,18 @@
     <item>
       <title>Nexus</title>
       <link>/tags/nexus/</link>
-      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      <pubDate>Mon, 02 Apr 2018 16:05:26 +0100</pubDate>
       
       <guid>/tags/nexus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Node</title>
+      <link>/tags/node/</link>
+      <pubDate>Tue, 01 Jan 2019 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/node/</guid>
       <description></description>
     </item>
     
@@ -195,9 +222,18 @@
     <item>
       <title>Sonar</title>
       <link>/tags/sonar/</link>
-      <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
+      <pubDate>Mon, 02 Apr 2018 16:05:26 +0100</pubDate>
       
       <guid>/tags/sonar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spring</title>
+      <link>/tags/spring/</link>
+      <pubDate>Mon, 02 Apr 2018 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/spring/</guid>
       <description></description>
     </item>
     
@@ -207,6 +243,24 @@
       <pubDate>Sat, 24 Feb 2018 16:05:41 +0100</pubDate>
       
       <guid>/tags/tourainetech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typescript</title>
+      <link>/tags/typescript/</link>
+      <pubDate>Tue, 01 Jan 2019 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xss</title>
+      <link>/tags/xss/</link>
+      <pubDate>Fri, 01 Feb 2019 12:20:41 +0100</pubDate>
+      
+      <guid>/tags/xss/</guid>
       <description></description>
     </item>
     
@@ -225,6 +279,24 @@
       <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
       
       <guid>/tags/continuous-integration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cors</title>
+      <link>/tags/cors/</link>
+      <pubDate>Fri, 01 Feb 2019 12:20:41 +0100</pubDate>
+      
+      <guid>/tags/cors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>csrf</title>
+      <link>/tags/csrf/</link>
+      <pubDate>Fri, 01 Feb 2019 12:20:41 +0100</pubDate>
+      
+      <guid>/tags/csrf/</guid>
       <description></description>
     </item>
     
@@ -274,11 +346,29 @@
     </item>
     
     <item>
+      <title>keycloak</title>
+      <link>/tags/keycloak/</link>
+      <pubDate>Tue, 01 Jan 2019 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/keycloak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ktor</title>
       <link>/tags/ktor/</link>
       <pubDate>Wed, 07 Nov 2018 12:05:41 +0100</pubDate>
       
       <guid>/tags/ktor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>/tags/kubernetes/</link>
+      <pubDate>Tue, 01 Jan 2019 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/kubernetes/</guid>
       <description></description>
     </item>
     
@@ -292,11 +382,47 @@
     </item>
     
     <item>
+      <title>remote</title>
+      <link>/tags/remote/</link>
+      <pubDate>Tue, 01 Jan 2019 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/remote/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>rundeck</title>
       <link>/tags/rundeck/</link>
       <pubDate>Sat, 12 Aug 2017 16:05:26 +0100</pubDate>
       
       <guid>/tags/rundeck/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scrum</title>
+      <link>/tags/scrum/</link>
+      <pubDate>Tue, 01 Jan 2019 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/scrum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>securite</title>
+      <link>/tags/securite/</link>
+      <pubDate>Fri, 01 Feb 2019 12:20:41 +0100</pubDate>
+      
+      <guid>/tags/securite/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sql</title>
+      <link>/tags/sql/</link>
+      <pubDate>Mon, 02 Apr 2018 16:05:26 +0100</pubDate>
+      
+      <guid>/tags/sql/</guid>
       <description></description>
     </item>
     
