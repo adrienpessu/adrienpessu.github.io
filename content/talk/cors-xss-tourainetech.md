@@ -33,9 +33,9 @@ tags = ["Conf", "securite", "Xss", "cors", "csrf"]
 
 # Links (optional).
 url_pdf = ""
-url_slides = ""
-url_video = ""
-url_code = ""
+url_slides = "https://adrienpessu.github.io/slides/cors_xss_csrf_sqlInjection/#/"
+url_video = "https://peertube.fr/videos/watch/2be19a9c-b692-4c37-9a3c-01983dd4cb60"
+url_code = "https://github.com/adrienpessu/cors-xss-csrf-sqli-backtothebasics"
 
 # Does the content use math formatting?
 math = false
