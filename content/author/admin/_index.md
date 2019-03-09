@@ -13,7 +13,7 @@ role = "Freelance"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Adrien Pessu Consulting", url = "https://adrien.pessu.net" } ]
+organizations = [ { name = "EURL Adrien Pessu Consulting", url = "https://adrien.pessu.net" } ]
 
 # Short bio (displayed in user profile at end of posts)
 bio = "Développeur passionné"
