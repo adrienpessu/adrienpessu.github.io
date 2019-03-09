@@ -86,7 +86,7 @@ J'aide l'équipe projet à mettre en place les bonnes pratiques pour développer
 
 Sollicitez-moi pour venir faire une présentation technique dans votre entreprise.
 
-You could also write and speak to me in english ;)
+You could also write and speak to me in English ;)
 
 ## Missions : 
 
