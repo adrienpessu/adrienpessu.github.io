@@ -86,6 +86,8 @@ J'aide l'équipe projet à mettre en place les bonnes pratiques pour développer
 
 Sollicitez-moi pour venir faire une présentation technique dans votre entreprise.
 
+You could also write and speak to me in english ;)
+
 ## Missions : 
 
 * Développement d'un POC en mode intératif

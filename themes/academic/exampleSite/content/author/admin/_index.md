@@ -78,19 +78,3 @@ user_groups = []
 
 +++
 
-# Présentation
-
-Je suis passionné de développement.
-
-J'aide l'équipe projet à mettre en place les bonnes pratiques pour développer plus vite, améliorer la qualité et diminuer les coûts.
-
-Sollicitez-moi pour venir faire une présentation technique dans votre entreprise.
-
-## Missions : 
-
-* Développement d'un POC en mode intératif
-* Lead dev (Intégration continue, Bests practices, Java, Javascript)
-* Architecte logiciel (Conception technique, Java, Javascript)
-* Expert technique (Java, Angular)
-* Développeur sénior (Java, Kotlin, Javascript, multitechnologique)
-* Formation Spring
