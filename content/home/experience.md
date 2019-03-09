@@ -26,10 +26,9 @@ date_format = "January 2006"
   date_start = "2019-01-01"
   date_end = ""
   description = """
-  Responsibilities include:
-  
-  * Développement (angular / node)
-  * Choix technique
+
+  * Développement (angular / node / keycloak / ovh sms)
+  * Choix techniques
   * Prototypage
   """
 
