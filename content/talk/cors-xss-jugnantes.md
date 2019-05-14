@@ -1,6 +1,6 @@
 +++
 title = "CORS, XSS, CSRF, SQL injection #BackToTheBasics"
-date = 2019-04-10T12:20:41+01:00  # Schedule page publish date.
+date = 2019-05-01T12:20:41+01:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
@@ -16,7 +16,7 @@ event = "JUG Nantes"
 event_url = "https://nantesjug.org/#/"
 
 # Location of event.
-location = "Nantes"
+location = "JUG Nantes"
 
 # Is this a selected talk? (true/false)
 selected = true

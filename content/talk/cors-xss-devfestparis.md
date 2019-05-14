@@ -16,7 +16,7 @@ event = "Devfest Paris"
 event_url = "https://devfest-paris-2019.firebaseapp.com/schedule/2018-02-08?sessionId=114"
 
 # Location of event.
-location = "Paris"
+location = "Devfest Paris"
 
 # Is this a selected talk? (true/false)
 selected = true

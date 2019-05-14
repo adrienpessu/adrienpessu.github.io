@@ -16,7 +16,7 @@ event = "Devfest Nantes"
 event_url = "https://devfest.gdgnantes.com/schedule/day2?sessionId=28"
 
 # Location of event.
-location = "Nantes"
+location = "Devfest Nantes"
 
 # Is this a selected talk? (true/false)
 selected = true

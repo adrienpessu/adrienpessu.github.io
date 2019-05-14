@@ -16,7 +16,7 @@ event = "Web2Day"
 event_url = "https://web2day.co/"
 
 # Location of event.
-location = "Nantes"
+location = "Web2Day Nantes"
 
 # Is this a selected talk? (true/false)
 selected = true

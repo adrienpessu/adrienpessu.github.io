@@ -16,7 +16,7 @@ event = "JUG Summer Camp"
 event_url = "https://www.jugsummercamp.org/edition/9/presentation/1223"
 
 # Location of event.
-location = "La Rochelle"
+location = "JUG Summer Camp La Rochelle"
 
 # Is this a selected talk? (true/false)
 selected = true

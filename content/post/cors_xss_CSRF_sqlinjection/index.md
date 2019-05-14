@@ -35,7 +35,7 @@ categories = []
 
 # Introduction
 
-Souvent la question de sécurité d'une applicaton se posent une fois qu'elle est finie. Lorsqu'un client demande une audit de sécurité, ou pire, quand une attaque est opérée.
+Souvent la question de sécurité d'une applicaton se posent une fois qu'elle est finie. Lorsqu'un client demande un audit de sécurité, ou pire, quand une attaque est opérée.
 
 C'est pourquoi, il faut se pré-occuper de la sécurité de vos applications avant et pendant le développement.
 
@@ -45,7 +45,7 @@ Il faut également que chaque développeur surveille la sécurité de son dével
 
 Dans ce billet nous allons voir quelques failles les plus populaires selon le top 10 OWASP (Owasp est une communauté en ligne qui met en avant les problémes de sécurité des applications Web.)
 
-Nous verrons des failles et quelques moyens de s'en prémunir mais nous ne verrons pas de moyens universelles de corriger les failles car chaque applications et chaque composants sont différents. Il n'y a pas de "silver bullet".
+Nous verrons des failles et quelques moyens de s'en prémunir mais nous ne verrons pas de moyens universelles de corriger les failles car chaque application et chaque composant sont différents. Il n'y a pas de "silver bullet".
 
 # Cross Origin Resource Sharing
 
@@ -68,7 +68,7 @@ Le site  est sur un serveur et les données sont sur un autre serveur, qui est p
 
 Pour ce faire, il faut activer CORS sur le serveur. Même si, en tant que développeur, nous constatons les erreurs CORS sur le front c'est bien une configuration serveur qu'il faut activer. 
 
-Enfin presque, puis'il faut aussi ajouter lors à l'appel Rest, un attibut à l'entête de la requête. Cet attibut s'appele "origin". La valeur de cette attribut est l'adresse avec laquelle, nous faisont la requête. Une adresse est composé d'un protocole (http, https), d'un domaine et parfois un sous-domaine et enfin d'un port, ce port est souvent caché quand c'est celui par défaut (80 ou 443).
+Enfin presque, puisqu'il faut aussi ajouter lors à l'appel Rest, un attibut à l'entête de la requête. Cet attibut s'appele "origin". La valeur de cette attribut est l'adresse avec laquelle, nous faisons la requête. Une adresse est composée d'un protocole (http, https), d'un domaine et parfois un sous-domaine et enfin d'un port, ce port est souvent caché quand c'est celui par défaut (80 ou 443).
 
 Une fonctionnalité de CORS est depuis implémentée dans les navigateurs, elle s'appele le "pre-flight". Plutôt que d'envoyer une requête Post avec un "payload" volumineux, le navigateur va lancer une petite requête avec la méthode Option, dans cette requête, il va ajouter les attributs suivant : 
 
@@ -105,13 +105,14 @@ Prenons l'exemple suivant :
 
 Dans cette application, le paramètre de l'URL qui s'appelle "name" sera affiché dans le document.
 
-Si le paramètre "name" prend la valeur "<script>alert(document.cookie)</script>", l'application ajoutera une script qui affichera les cookies de l'application.
+Si le paramètre "name" prend la valeur `<script>alert(document.cookie)</script>`, l'application ajoutera une script qui affichera les cookies de l'application.
 
 Cette application comporte donc une faille XSS.
 
 Cette faille sera bien sûr difficile à rencontrer de nos jours, nous n'utilisons plus ```document.write```, nous utilisons des frameworks comme angular, react ou vue.
 
 Il existe dans ces frameworks, un moyen d'afficher dynamiquement du contenu interprétable par un navigateur comme du HTML et par extension du Javascript. Dans React ou dans Vue, il suffit d'ajouter le l'attribut : 
+
 - React : 
 ```
 dangerouslySetInnerHTML={{
@@ -124,9 +125,11 @@ dangerouslySetInnerHTML={{
 <div v-html="$dynamicContent" ></div>
 ```
 
-Dans ces deux cas, si le contenu de la variable ```dynamicContent`` est ``` %3Ca%20onmouseover=alert(document.cookie)%3Eclick%20me!/%3C/a%3E ``` ce qui est la version échappée de ``` <a onmouseover=alert(document.cookie)>click me!/</a> ```. Ce code va ajouter un lien qui au survole du curseur affichera le contenu des cookies du site.
+Dans ces deux cas, si le contenu de la variable `dynamicContent` est : ` %3Ca%20onmouseover=alert(document.cookie)%3Eclick%20me!/%3C/a%3E ` ce qui est la version échappée de 
+` <a onmouseover=alert(document.cookie)>click me!/</a> `. 
+Ce code va ajouter un lien qui au survole du curseur affichera le contenu des cookies du site.
 
-Une faille XSS est un point d'entré dans l'application pour détourner son comportement et récupérer des informations confidentielles, renvoyer l'utilisateur vers un autre site,... La limite des détournements possible est notre imagination. Il y aussi beaucoup d'exemple dans l'actualité.
+Une faille XSS est un point d'entré dans l'application pour détourner son comportement et récupérer des informations confidentielles, renvoyer l'utilisateur vers un autre site,... La limite des détournements possibles est notre imagination. Il y aussi beaucoup d'exemple dans l'actualité.
 
 # Cross-Site Request Forgery
 
@@ -134,11 +137,11 @@ Prennons, comme exemple, un forum de discution avec l'illustration suivante :
 ![png](./CSRF-1.png)
 
 Une personne malveillante peut cacher dans un message un script malveillant. Ce script a pu être ajouté dans le message par une faille XSS ou bien caché par dans une image.
-L'administrateur en ouvrant le message va éxécuter le script malveillant qui va lancer l'adresse : http://forum.foo.dev/user/delete?id=56 qui va supprimer le compte utilisateur de la victime.
+L'administrateur en ouvrant le message va exécuter le script malveillant qui va lancer l'adresse : http://forum.foo.dev/user/delete?id=56 qui va supprimer le compte utilisateur de la victime.
 
-On nottera que l'identifiant est séquence, ce qui est une mauvaise pratique.
+On nottera que l'identifiant est une séquence, ce qui est une mauvaise pratique. Il faudrait utiliser une identifiant UUID.
 
-Un moyen de se prémunir d'une attaque CSRF est d'utiliser un CSRF token c'est-à-dire un jeton généré par le serveur qui sera ajouté au liens. Ce mécanisme permettra au serveur avant d'éxécuter une requête de vérifier que le token en paramètre a bien été généré par lui-même.
+Un moyen de se prémunir d'une attaque CSRF est d'utiliser un CSRF token c'est-à-dire un jeton généré par le serveur qui sera ajouté au liens. Ce mécanisme permettra au serveur avant d'exécuter une requête de vérifier que le token en paramètre a bien été généré par lui-même.
 
 # SQL Injection
 
@@ -151,7 +154,7 @@ Le script d'insertion SQL derrière se formulaire serait le suivant :
     INSERT INTO subscriber VALUES (\'' + subscriber + '\'); 
 ```
 
-Si la variable subscriber contient bien une adresse email, l'instruction SQL sera éxécuté sans soucis.
+Si la variable subscriber contient bien une adresse email, l'instruction SQL sera exécuté sans soucis.
 
 Mais si à la place de l'adresse email, un utilisateur malveillant insère : 
 ```
@@ -169,7 +172,7 @@ Le meilleur moyen de s'en prémunir est de protéger toutes les entrées utilisa
 
 # Conclusion
 
-En conclusion, il n'y a pas de sylver bullet en sécurité. Il faut analyser le code, les dépendances et toutes les entrée utilisateurs. Il faut vérifier que notre application n'est pas vuknérable à une faille du top 10 Owasp. D'ailleurs, sur le site de l'[Owasp](https://www.owasp.org/), il y a beaucoup d'exemple de chaine de caractères à insérer dans les formulaires pour tester les failles Xss. Il existe aussi des outils comme [snyk](https://snyk.io/) qui analyse les failles (CVE) dans les dépendances de vos applications dans quasiment tous les langages, et ceci peut même être ajouté à l'intégration continue.
+En conclusion, il n'y a pas de silver bullet en sécurité. Il faut analyser le code, les dépendances et toutes les entrées utilisateurs. Il faut vérifier que notre application n'est pas vulnérable à une faille du top 10 Owasp. D'ailleurs, sur le site de l'[Owasp](https://www.owasp.org/), il y a beaucoup d'exemple de chaine de caractères à insérer dans les formulaires pour tester les failles Xss. Il existe aussi des outils comme [snyk](https://snyk.io/) ou [dependencytrack](https://dependencytrack.org) qui analyse les failles (CVE) dans les dépendances de vos applications dans quasiment tous les langages, et ceci peut même être ajouté à l'intégration continue.
 
 
 

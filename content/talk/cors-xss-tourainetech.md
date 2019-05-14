@@ -16,7 +16,7 @@ event = "TouraineTech"
 event_url = "https://touraine.tech/talk/6lzGoQwIVhyYQTSHce99"
 
 # Location of event.
-location = "Tours"
+location = "TouraineTech"
 
 # Is this a selected talk? (true/false)
 selected = true
