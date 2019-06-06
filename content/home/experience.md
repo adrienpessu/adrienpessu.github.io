@@ -27,9 +27,19 @@ date_format = "January 2006"
   date_end = ""
   description = """
 
-  * Développement (angular / node / keycloak / ovh sms)
-  * Choix techniques
-  * Prototypage
+  1. Développement
+
+   * SPA avec Angular
+   * API Rest avec Node (Typescript, express, Mongoose)
+   * Authentification et Gestion utilisateurs avec keycloak
+   * Notification en temps réel avec Socket.io
+   * Base de données NoSQL (MongoDB)
+   * API SMS avec OVH
+   * Calcul  de distance avec Bing Map
+   * Hebergement sur Azure (App Service)
+  2. Choix techniques
+  3. Prototypage
+  4. Mode agile
   """
 
 [[experience]]
