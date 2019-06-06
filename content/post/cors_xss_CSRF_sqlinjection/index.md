@@ -2,7 +2,7 @@
 title = "Cors, XSS, CSRF, SQLInjection #BackToTheBasics"
 subtitle = "Retour sur les basiques de la sécurité Web"
 summary = "Pas besoin d'être RSSI ou DevOpsSec pour se soucier de sécurité. Que l'on soit développeur back ou front, la sécurité est l'affaire de tous. Pourtant, on la confie souvent aveuglement à nos frameworks. Mais alors comment vérifier la sécurité de nos données et de nos utilisateurs."
-date = 2019-06-05T00:00:00Z
+date = 2019-06-06T00:00:00Z
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
