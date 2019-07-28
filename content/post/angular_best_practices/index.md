@@ -233,7 +233,7 @@ ng add @angular/fire
 ng run my-app:deploy
 ```
 
-La CLI est pleinede ressource, utilisez-là.
+La CLI est pleine de ressource, utilisez-là.
 
 # 20. Ivy
 
@@ -249,3 +249,13 @@ Ivy est en expérimentation dans la version 8 et sera adopté en version 9.
 
 Plus fluidifier, le passage vers ce moteur, il est intéressant d'essayer dès maintenant sur votre application pour voir si ça fonctionne ou non, et d'avoir un aperçu de l'effort de migration. 
 
+# 21. Angular Element
+
+Angular element permet de transformer un composant Angular en un web component.
+
+L'intérêt peut être très divers : 
+- intégrer un ou plusieurs composants dans une application n'utilisant pas Angular (Vanilla ou un autre framework front)
+- faire du [micro-frontend](https://www.youtube.com/watch?v=pXnYjCI33Mc)
+- s'approcher le plus possible du navigateur (Use the platform)
+
+Pour aller plus loin, rendez-vous sur la [documentation officielle](https://angular.io/guide/elements#transforming-components-to-custom-elements)
