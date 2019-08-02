@@ -1,6 +1,6 @@
 +++
 title = "Kotlin, le back du futur - la conf"
-date = 2018-02-24T16:05:41+01:00  # Schedule page publish date.
+date = 2019-06-20T16:05:41+01:00  # Schedule page publish date.
 draft = false
 
 # Talk start and end times.
