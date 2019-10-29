@@ -19,7 +19,22 @@ date_format = "January 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "Lead Developper fullstack Freelance"
+  title = "Security developper"
+  company = "Agorapulse"
+  company_url = ""
+  location = "Remote"
+  date_start = "2019-09-10"
+  date_end = ""
+  description = """
+
+  1. Gestion du programme de BugBounty (HackerOne)
+  2. Analyse et rapport de recommendations de sécurisation d'AWS
+  3. Paramétrage de l'outil Sqreen
+  4. Evangélisation de la sécurité dans le développement
+  """
+
+[[experience]]
+  title = "Lead Developper fullstack / CTO Freelance"
   company = "Rhumb consulting"
   company_url = ""
   location = "Remote"
@@ -40,6 +55,7 @@ date_format = "January 2006"
   2. Choix techniques
   3. Prototypage
   4. Mode agile
+  5. Recrutement
   """
 
 [[experience]]
