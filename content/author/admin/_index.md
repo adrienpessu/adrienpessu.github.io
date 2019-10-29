@@ -91,8 +91,7 @@ You could also write and speak to me in English ;)
 ## Missions : 
 
 * Développement d'un POC en mode intératif
+* Consultant développements sécurisés (AppSec)
 * Lead dev (Intégration continue, Bests practices, Java, Javascript)
-* Architecte logiciel (Conception technique, Java, Javascript)
-* Expert technique (Java, Angular)
+* Architecte logiciel (Conception technique, Java, Angular)
 * Développeur sénior (Java, Kotlin, Javascript, multitechnologique)
-* Formation Spring
