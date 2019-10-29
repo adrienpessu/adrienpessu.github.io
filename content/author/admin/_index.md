@@ -23,6 +23,7 @@ email = "adrien@pessu.net"
 
 # List (academic) interests or hobbies
 interests = [
+  "Security",
   "Angular",
   "Kotlin",
   "Java",
