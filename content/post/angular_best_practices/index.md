@@ -2,7 +2,7 @@
 title = "Liste des meilleurs pratiques Angular"
 subtitle = "Les meilleurs pratiques pour garder une appplication maintenable"
 summary = ""
-date = 2019-07-27T00:00:00Z
+date = 2020-02-1p09op09o9o09o09opo9p009op09o09oT00:00:00Z
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
@@ -129,7 +129,7 @@ Après avoir trouvé vos grands domaines fonctionnels en définissant des module
 
 # 9. Éviter webpack
 
-La configuration du build de l'application avec le cli est assez complète pour la plus part des applications. L'équipe d'Angular se charge de garder une configuration maintenable, alors autant en profiter.
+La configuration du build de l'application avec le cli est assez complète pour la plus part des applications. L'équipe d'Angular se charge de garder une configuration maintenable et upgradable, alors autant en profiter.
 
 # 10. Prettier et TSLint 
 
@@ -235,21 +235,8 @@ ng run my-app:deploy
 
 La CLI est pleine de ressource, utilisez-là.
 
-# 20. Ivy
 
-Ivy est le nouveau moteur de compilation d'Angular. 
-
-Ce nouveau moteur apporte : 
-- un bundle (résultat de la compilation) plus petit,
-- la compilation incrémentale,
-- tests unitaires plus rapide,
-- plus de possibilités pour debugger (point d'arrêt HTML)
-
-Ivy est en expérimentation dans la version 8 et sera adopté en version 9.
-
-Plus fluidifier, le passage vers ce moteur, il est intéressant d'essayer dès maintenant sur votre application pour voir si ça fonctionne ou non, et d'avoir un aperçu de l'effort de migration. 
-
-# 21. Angular Element
+# 22. Angular Element
 
 Angular element permet de transformer un composant Angular en un web component.
 
