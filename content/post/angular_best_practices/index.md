@@ -2,7 +2,7 @@
 title = "Liste des meilleurs pratiques Angular"
 subtitle = "Les meilleurs pratiques pour garder une appplication maintenable"
 summary = ""
-date = 2020-02-1p09op09o9o09o09opo9p009op09o09oT00:00:00Z
+date = 2020-02-01
 draft = false
 
 # Authors. Comma separated list, e.g. `["Bob Smith", "David Jones"]`.
