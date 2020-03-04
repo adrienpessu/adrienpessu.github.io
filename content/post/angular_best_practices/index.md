@@ -146,12 +146,13 @@ Le bénéfice est un temps d'exécution réduit car l'effort est fourni au momen
 
 Le lazy loading (chargement fainéant) est un mécanisme qui permet de télécharger les composants que si l'utilisateur en à besoin. 
 
-Comme vu précédement, notre application est découpé en modules fonctionnels (voir §7). En configurant le lazy loading de module, les modules fonctionnels ne vont se télécharger que lorsque l'utilisateur va accéder au composant de ce module. 
+Comme vu précédement, notre application est découpée en modules fonctionnels (voir §7). En configurant le lazy loading de module, les modules fonctionnels ne vont se télécharger que lorsque l'utilisateur va accéder au composant de ce module. 
 
 L'application saura quand charger un module en fonction des routes.
 
 Pour aller, Je vous invite à accéder à la [documentation officielle](https://angular.io/guide/lazy-loading-ngmodules).
 
+Depuis Angular 9, il est possible d'activer le lazy loading pour seulement un composant. Pour ceci, je vous invite à regarder l'article suivant : [Angular 9: Lazy Loading Components](https://dev.to/angular/angular-9-lazy-loading-components-o04). Comme vous pouvez le voir, le lazy loading de composant ajoute du code "boilerplate", il n'est donc pas à ajouter sur tous les composants. Il est de plus préférable de l'ajouter pour des composants très indépendants. 
 
 # 13. Toujours à jour
 
@@ -244,5 +245,7 @@ L'intérêt peut être très divers :
 - intégrer un ou plusieurs composants dans une application n'utilisant pas Angular (Vanilla ou un autre framework front)
 - faire du [micro-frontend](https://www.youtube.com/watch?v=pXnYjCI33Mc)
 - s'approcher le plus possible du navigateur (Use the platform)
+
+Attention, si vous utilisez un système de gestion d'état, comme "NgRx", car l'accès à l'état peut être complexe. De plus, un Angular element embarque les library dont il a besoin pour fonctionner, le poid du composant peut donc rapidement augmenter.
 
 Pour aller plus loin, rendez-vous sur la [documentation officielle](https://angular.io/guide/elements#transforming-components-to-custom-elements)
