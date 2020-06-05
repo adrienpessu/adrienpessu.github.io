@@ -112,7 +112,7 @@ Plus généralement, lorsque vous avez besoin de partager des données entre pll
 # 5. Éviter ngModel
 
 L'utilisation NgModel dans les formulaires réactifs a été déprécié à partir d'Angular 6.
-C'est plutôt une bonne nouvelle, parce que les [Reactive form](https://angular.io/guide/reactive-forms) d'Angular ont de très bonnes fonctionnalités. Les formControl et les formGroup simplifient beaucoup la gestion des formulaires.
+C'est plutôt une bonne nouvelle, parce que les [Reactive forms](https://angular.io/guide/reactive-forms) d'Angular ont de très bonnes fonctionnalitées. Les formControl et les formGroup simplifient beaucoup la gestion des formulaires.
 
 # 6. Petits composant
 
