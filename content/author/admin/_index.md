@@ -91,7 +91,7 @@ You could also write and speak to me in English ;)
 
 ## Missions : 
 
-* Développement d'un POC en mode intératif
+* Développement d'un POC en mode itératif
 * Consultant développements sécurisés (AppSec)
 * Lead dev (Intégration continue, Bests practices, Java, Javascript)
 * Architecte logiciel (Conception technique, Java, Angular)
