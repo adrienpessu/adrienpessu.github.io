@@ -1,0 +1,25 @@
+<html>
+
+<header>
+    <script>
+        function changeUrl(event) {
+            document.getElementById('myIframe').src = document.getElementById('url').value;
+        }
+    </script>
+</header>
+
+<body>
+
+<input type="text" id="url">
+<button onclick="changeUrl(this)">refresh</button>
+<br>
+<br>
+
+<iframe src="https://app.beta.agorapulse.com" id="myIframe" width="1024" height="800"></iframe>
+
+</body>
+
+
+
+
+</html>
