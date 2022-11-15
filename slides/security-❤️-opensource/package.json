@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "@marp-team/marp-cli slides.md"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@marp-team/marp-cli": "^2.2.0",
-    "http-server": "^14.1.1"
+    "@marp-team/marp-cli": "2.2.0",
+    "http-server": "14.1.1"
   }
 }
