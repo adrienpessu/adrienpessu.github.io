@@ -16,9 +16,9 @@ Open source + Security = ❤️
 
 # Introduction
 
-- forteresse
-- tout est accessible donc on verra les bug de sécu
-- si on est plusieurs entreprises à utiliser un projet open source. On aura plusieurs cas d'usage
+* forteresse
+* tout est accessible donc on verra les bug de sécu
+* si on est plusieurs entreprises à utiliser un projet open source. On aura plusieurs cas d'usage
 ---
 # Agenda
 
@@ -36,8 +36,8 @@ Open source + Security = ❤️
 # :factory: OWASP
 
 
-- Open source project
-- Conferences
+* Open source project
+* Conferences
 
 ---
 
@@ -51,9 +51,9 @@ CVE
 # :tv: How to open source but safely
 <!-- _class: invert -->
 
-- Analyse de code (CodeQL, Secrets)
-- Analyse des dependances (DependaBot)
-- Security advisory
+* Analyse de code (CodeQL, Secrets)
+* Analyse des dependances (DependaBot)
+* Security advisory
 
 ---
 
