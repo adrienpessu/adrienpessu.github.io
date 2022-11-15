@@ -5,50 +5,36 @@ marp: true
 Open source + Security = ❤️ 
 ===
 
-##### Markdown presentation ecosystem
 
 ###### by Adrien Pessu ([@adrienpessu][GitHub]) ![h:250](https://adrienpessu.github.io/assets/github.png)
 
 [GitHub]: https://github.com/adrienpessu
+---
+
+# Introduction
+
 ---
 # Agenda
 
 - :memo: Open source security foundation 
 - :factory: OWASP
 - :gear: MITRE
-- and more...
+- :tv: How to open source
 
 ---
 
-# Open source security foundation 
+# :memo: Open source security foundation
 
 ---
 
-# OWASP
+# :factory: OWASP
 
 ---
 
-# MITRE
+# :gear: MITRE
 ---
 
-# Others
----
-
-# Open source security foundation 
-Split pages by horizontal ruler (e.g. `---`). It's very simple.
-
-```markdown
-# Slide 1
-
-foobar
-
----
-
-# Slide 2
-
-foobar
-```
-
+# :tv: How to open source
 ---
 
 # Directives
