@@ -33,6 +33,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: build
+        working-directory: slides/OpensourcePlusSecurityEq❤
         run: |
           npm i
           npm run build
