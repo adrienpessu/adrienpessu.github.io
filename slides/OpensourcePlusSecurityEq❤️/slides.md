@@ -5,33 +5,36 @@ marp: true
 Open source + Security = ❤️ 
 ===
 
-![h:250](https://avatars1.githubusercontent.com/u/20685754?v=4)
-
 ##### Markdown presentation ecosystem
 
-###### by Marp Team ([@marp-team][marp-team])
+###### by Adrien Pessu ([@adrienpessu][GitHub]) ![h:250](https://adrienpessu.github.io/assets/github.png)
 
-[marp-team]: https://github.com/marp-team
-[marpit]: https://github.com/marp-team/marpit
-[marp-core]: https://github.com/marp-team/marp-core
-[marp-cli]: https://github.com/marp-team/marp-cli
-[marp-vscode]: https://github.com/marp-team/marp-vscode
-
+[GitHub]: https://github.com/adrienpessu
 ---
+# Agenda
 
-# Features
-
-- :memo: **Write slide deck with plain Markdown** (CommonMark)
-- :factory: Built on [Marpit framework][marpit]: A brand-new skinny framework for creating slide deck
-- :gear: [Marp Core][marp-core]: Easy to start using the core engine and built-in themes via npm
-- :tv: [Marp CLI][marp-cli]: Convert Markdown into HTML, PDF, PPTX, and images
-- :vs: [Marp for VS Code][marp-vscode]: Live-preview your deck while editting
+- :memo: Open source security foundation 
+- :factory: OWASP
+- :gear: MITRE
 - and more...
 
 ---
 
-# How to write slides?
+# Open source security foundation 
 
+---
+
+# OWASP
+
+---
+
+# MITRE
+---
+
+# Others
+---
+
+# Open source security foundation 
 Split pages by horizontal ruler (e.g. `---`). It's very simple.
 
 ```markdown
