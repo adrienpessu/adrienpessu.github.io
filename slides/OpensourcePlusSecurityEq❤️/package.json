@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "marp -w slides.md",
-    "build": "marp slides.md -o index.html"
+    "build": "marp slides.md -o index.html",
+    "serve": "http-server"
   },
   "author": "",
   "license": "ISC",
