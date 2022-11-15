@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "@marp-team/marp-cli slides.md"
+    "start": "marp -w slides.md",
+    "build": "marp slides.md"
   },
   "author": "",
   "license": "ISC",
