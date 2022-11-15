@@ -2,7 +2,7 @@
 marp: true
 ---
 
-Open source + Security = ❤️
+Open source + Security = ❤️ 
 ===
 
 ![h:250](https://avatars1.githubusercontent.com/u/20685754?v=4)
