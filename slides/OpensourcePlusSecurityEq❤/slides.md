@@ -16,10 +16,22 @@ Open source + Security = ❤️
 
 # Introduction
 
-* forteresse
-* tout est accessible donc on verra les bug de sécu
-* si on est plusieurs entreprises à utiliser un projet open source. On aura plusieurs cas d'usage
+![h:300 center](assets/got-kingslanding.jpg)
+
 ---
+
+# Introduction
+
+![h:400 center](assets/got_dragon.webp)
+
+---
+
+# Introduction
+
+![h:400 center](assets/got-garden.webp)
+
+---
+
 # Agenda
 
 * :factory: OWASP
