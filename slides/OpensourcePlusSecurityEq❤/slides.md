@@ -113,14 +113,37 @@ Routing, Scraping, Web Archives, WHOIS
 # :tv: How to open source but safely
 <!-- _class: invert -->
 
-* Analyse de code (CodeQL, Secrets)
-* Analyse des dependances (DependaBot)
-* Security advisory
+## CodeQL && Secret scanning
+
+![h:350](assets/codeql_pr.png)
+
+---
+
+
+# :tv: How to open source but safely
+<!-- _class: invert -->
+
+![h:400](assets/dependabot.png)
+
+---
+
+
+# :tv: How to open source but safely
+<!-- _class: invert -->
+
+![h:350](assets/github_disclose.webp)
 
 ---
 
 
 # Conclusion
 
-Il y en a partout des projets 
-Il faut aussi soutenir ces projets : en contribuant (code, doc, talks) ou en donnant de l'argent
+All over the world
+
+We should contribute : 
+- Code
+- Doc
+- Talks
+- Blog posts
+- ...
+
