@@ -85,12 +85,22 @@ Routing, Scraping, Web Archives, WHOIS
 
 ---
 
-# :memo: Open source security foundation 
+# :memo: Open source security foundation (OpenSSF)
 
+Cross-industry forum for a collaborative effort to improve open source software security.
 
+*GitHub, Google, IBM, JPMorgan Chase, Microsoft, NCC Group, OWASP Foundation, Red Hat, HackerOne, Intel, Okta, Purdue, Uber, WhiteSource, and VMware.*
 
 --- 
 
+# :memo: Open source security foundation (OpenSSF)
+
+- Projects (like Sigstore, ...)
+- Funding open source projects
+- Free trainings
+- Guides
+
+--- 
 
 # :gear: MITRE
 
