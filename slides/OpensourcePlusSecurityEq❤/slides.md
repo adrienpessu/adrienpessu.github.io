@@ -5,6 +5,13 @@ paginate: true
 footer: @adrienpessu
 ---
 
+<style>
+img[alt~="center"] {
+  display: block;
+  margin: 0 auto;
+}
+</style>
+
 Open source + Security = ❤️ 
 ===
 
