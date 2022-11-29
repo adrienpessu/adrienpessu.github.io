@@ -74,14 +74,6 @@ https://owasp.org/Top10/fr/
 
 ---
 
-# :factory: OWASP ZAP (Zed Attack Proxy)
-
-
-- Proxy
-- App Scanner
-
----
-
 # :factory: OWASP Dependency-check
 
 ![h:100](assets/dc.svg)
@@ -104,6 +96,15 @@ Routing, Scraping, Web Archives, WHOIS
 
 ---
 
+
+# :factory: OWASP ZAP (Zed Attack Proxy)
+
+
+- Proxy
+- App Scanner
+
+---
+
 # :memo: Open source security foundation (OpenSSF)
 
 Cross-industry forum for a collaborative effort to improve open source software security.
@@ -118,6 +119,8 @@ Cross-industry forum for a collaborative effort to improve open source software 
 - Funding open source projects
 - Free trainings
 - Guides
+
+<!-- Des Techno pour gérer la signature, la vérification de provenances de container, de process d'identification,... avec un focus sur le privacy -->
 
 --- 
 
@@ -137,6 +140,8 @@ Cross-industry forum for a collaborative effort to improve open source software 
 
 - ATT&CK : knowledge base of adversary tactics and techniques based on real-world observations
 
+<!-- ATT&CK => Base de connaissances sur les attaques techniques, tactiques et outils -->
+
 ---
 
 # :tv: How to open source but safely
@@ -146,6 +151,8 @@ Cross-industry forum for a collaborative effort to improve open source software 
 
 ![h:350](assets/codeql_pr.png)
 
+<!-- Secret scanning partner : Azure, Slack, Mailgun, Twilio, Stripe -->
+
 ---
 
 
@@ -153,6 +160,13 @@ Cross-industry forum for a collaborative effort to improve open source software 
 <!-- _class: invert -->
 
 ![h:400](assets/dependabot.png)
+
+---
+
+# :tv: How to open source but safely
+<!-- _class: invert -->
+
+![h:400](assets/dependabot_pr.png)
 
 ---
 
@@ -167,9 +181,7 @@ Cross-industry forum for a collaborative effort to improve open source software 
 
 # Conclusion
 
-All over the world
-
-We should contribute : 
+How to contribute ?  
 - Code
 - Doc
 - Talks
