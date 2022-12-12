@@ -140,7 +140,9 @@ Cross-industry forum for a collaborative effort to improve open source software 
 
 - ATT&CK : knowledge base of adversary tactics and techniques based on real-world observations
 
-<!-- ATT&CK => Base de connaissances sur les attaques techniques, tactiques et outils -->
+<!-- ATT&CK => Base de connaissances sur les attaques techniques, tactiques et outils 
+ / massachusetts institute of technology research establishment
+-->
 
 ---
 
