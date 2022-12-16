@@ -18,6 +18,8 @@ Open source + Security = ❤️
 
 ###### by Adrien Pessu ([@adrienpessu][GitHub])   ![h:50](../../assets/github.png)
 
+![h:300 center](assets/NUX_Octodex.gif)
+
 [GitHub]: https://github.com/adrienpessu
 ---
 
@@ -176,7 +178,7 @@ Cross-industry forum for a collaborative effort to improve open source software 
 # :tv: How to open source but safely
 <!-- _class: invert -->
 
-![h:350](assets/github_disclose.webp)
+![h:350](assets/github_disclose.png)
 
 ---
 
