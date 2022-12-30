@@ -6,6 +6,7 @@
   "scripts": {
     "start": "marp -w slides.md",
     "build": "marp slides.md -o index.html",
+    "pdf": "marp slides.md -o index.html",
     "serve": "http-server"
   },
   "author": "",
