@@ -117,7 +117,7 @@ Cross-industry forum for a collaborative effort to improve open source software 
 
 # :memo: Open source security foundation (OpenSSF)
 
-- Projects (like Sigstore, ...)
+- Projects (like Sigstore, package-analysis, ...)
 - Funding open source projects
 - Free trainings
 - Guides
@@ -140,7 +140,7 @@ Cross-industry forum for a collaborative effort to improve open source software 
   
 ![h:250](assets/cve_log4j2.png)
 
-- ATT&CK : knowledge base of adversary tactics and techniques based on real-world observations
+- ATT&CK : knowledge base of adversary tactics and techniques based on real-world observations [https://attack.mitre.org/](https://attack.mitre.org/techniques/T1134/001/)
 
 <!-- ATT&CK => Base de connaissances sur les attaques techniques, tactiques et outils 
  / massachusetts institute of technology research establishment
