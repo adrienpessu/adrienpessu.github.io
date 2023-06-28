@@ -178,7 +178,7 @@ Cross-industry forum for a collaborative effort to improve open source software 
 # :tv: How to open source but safely
 <!-- _class: invert -->
 
-![h:350](assets/github_disclose.png)
+![h:350](assets/security_settings.png)
 
 ---
 
