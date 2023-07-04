@@ -1,0 +1,18 @@
+{
+  "name": "security-love-opensource",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "marp -w slides.md",
+    "build": "marp slides.md -o index.html",
+    "pdf": "marp slides.md -o index.html",
+    "serve": "http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@marp-team/marp-cli": "3.0.2",
+    "http-server": "14.1.1"
+  }
+}
