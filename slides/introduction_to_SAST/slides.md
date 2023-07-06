@@ -92,7 +92,7 @@ vs
 
 --- 
 
-# :factory: Abstract Syntax Tree (AST)
+## :factory: Abstract Syntax Tree (AST) [Models]
 
 ```java
 public class HelloWorld {
@@ -106,7 +106,7 @@ public class HelloWorld {
 
 ---
 
-# :factory: Control-flow graph
+# :factory: Control-flow graph [Models]
 
 ```java
 if  (a > 10) {
@@ -122,14 +122,14 @@ System.out.println(c);
 ```
 ---
 
-# :factory: Control-flow graph
+# :factory: Control-flow graph [Models]
 
 ![w:1100 center](assets/control-flow.png)
 
 ---
 
 
-# :factory: Data-flow graph
+# :factory: Data-flow graph [Models]
 
 ```java
 int target = input();
