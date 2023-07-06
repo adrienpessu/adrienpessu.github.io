@@ -16,11 +16,10 @@ Introduction aux outils de tests de sécurité d'application statique (SAST)
 ===
 
 
-###### by Adrien Pessu ([@adrienpessu][GitHub])   ![h:50](../../assets/github.png)
+###### by Adrien Pessu   ![h:50](../../assets/github.png)
 
 ![h:300 center](assets/NUX_Octodex.gif)
 
-[GitHub]: https://github.com/adrienpessu
 ---
 
 # Introduction
@@ -32,15 +31,6 @@ Introduction aux outils de tests de sécurité d'application statique (SAST)
 # Introduction
 
 ![h:400 center](assets/giphy_security.gif)
-
----
-
-
-# Agenda
-
-* Goals
-* Deep dive
-* Examples
 
 ---
 
@@ -134,7 +124,7 @@ System.out.println(c);
 
 # :factory: Control-flow graph
 
-![h:300 center](assets/control-flow.png)
+![w:1100 center](assets/control-flow.png)
 
 ---
 
@@ -153,6 +143,7 @@ System.out.println(targetAsString)
 
 ---   
 
+![bg right:33%](assets/sink.webp)
 # :factory: ⚡ Taint Analysis
 
 - Sources (user controlled inputs)
@@ -203,10 +194,13 @@ User Input => [some other stuff] => `sql.execute(input)`
 - 📏 Configuration Rules (yaml, json, data tructure...)
   - Simpler to write
   - Complex flows can be very hard to declare
-- ⚙️ Dynamic Queries (#️⃣ programming like anguage)
+- ⚙️ Dynamic Queries (#️⃣ programming like language)
   - Harder to learn and write
   - Complex flows are easier
 
+---
+
+# Demo?
 
 ---
 
@@ -222,3 +216,4 @@ Thanks to *@geekmasher*
 
 # Slides
 
+https://adrienpessu.github.io/slides/introduction_to_SAST/
