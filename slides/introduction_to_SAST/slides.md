@@ -34,14 +34,6 @@ Introduction aux outils de tests de sécurité d'application statique (SAST)
 
 ---
 
-# Definition
-
-OWASP
-
-Static Code Analysis commonly refers to the running of Static Code Analysis tools that attempt to highlight possible vulnerabilities within '**static**' (non-running) source code by using techniques such as Taint Analysis and Data Flow Analysis.
-
----
-
 # Search in code
 
 ```
@@ -63,6 +55,14 @@ sed -i 's/setDangerousHTML/void/g' index.ts
 ![h:300 center](assets/applause.gif)
 
 --- 
+
+# Definition
+
+OWASP
+
+Static Code Analysis commonly refers to the running of Static Code Analysis tools that attempt to highlight possible vulnerabilities within '**static**' (non-running) source code by using techniques such as Taint Analysis and Data Flow Analysis.
+
+---
 
 # :factory: Workflow
 
