@@ -60,7 +60,7 @@ sed -i 's/setDangerousHTML/void/g' index.ts
 
 OWASP
 
-Static Code Analysis commonly refers to the running of Static Code Analysis tools that attempt to highlight possible vulnerabilities within '**static**' (non-running) source code by using techniques such as Taint Analysis and Data Flow Analysis.
+Source code analysis tools, also known as Static Application Security Testing (SAST) Tools, can help analyze source code or compiled versions of code to help find security flaws.
 
 ---
 
@@ -71,7 +71,7 @@ Static Code Analysis commonly refers to the running of Static Code Analysis tool
 
 ---
 
-# :factory: Code
+# 📝 Code
 
 **Source Code Analysis** 
 vs  
@@ -79,7 +79,7 @@ vs
 
 --- 
 
-## :factory: Abstract Syntax Tree (AST) [Models]
+## 🏗️ Abstract Syntax Tree (AST) [Models]
 
 ```java
 public class HelloWorld {
@@ -93,7 +93,7 @@ public class HelloWorld {
 
 ---
 
-# [Models] :factory: Control-flow graph 
+# [Models] 🏗️ Control-flow graph 
 
 ```java
 if  (a > 10) {
@@ -109,14 +109,14 @@ System.out.println(c);
 ```
 ---
 
-# [Models] :factory: Control-flow graph 
+# [Models] 🏗️ Control-flow graph 
 
 ![w:1100 center](assets/control-flow.png)
 
 ---
 
 
-# [Models] :factory: Data-flow graph 
+# [Models] 🏗️ Data-flow graph 
 
 ```java
 int target = input();
@@ -131,7 +131,7 @@ System.out.println(targetAsString)
 ---   
 
 ![bg right:33%](assets/sink.webp)
-# :factory: ⚡ Taint Analysis
+# ⚡ Taint Analysis
 
 - Sources (user controlled inputs)
 - Sinks (dangerous methods / assignments)
@@ -142,7 +142,7 @@ System.out.println(targetAsString)
 
 ---
 
-# :factory: Pattern 1/2
+# ⚡ Pattern 1/2
 
 
 Using something insecure
@@ -152,7 +152,7 @@ Using something insecure
 
 ---
 
-# :factory: Pattern 2/2
+# ⚡ Pattern 2/2
 
 
 🏖️ Data flows into somewhere insecure
@@ -161,7 +161,7 @@ User Input => [some other stuff] => `sql.execute(input)`
 
 ---
 
-# :factory: Results
+# ⚡ Results
 
 
 - ⚠️ Security Issues
@@ -176,7 +176,7 @@ User Input => [some other stuff] => `sql.execute(input)`
 
 ---
 
-# :factory: Configuration
+#  :wrench: Configuration
 
 - 📏 Configuration Rules (yaml, json, data tructure...)
   - Simpler to write
