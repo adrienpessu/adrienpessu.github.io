@@ -42,19 +42,6 @@ Static Code Analysis commonly refers to the running of Static Code Analysis tool
 
 ---
 
-# :factory: Goals
-
-
-- 📝 An automated tool to analyse source code
-  - Automate Code Review
-- 🔍 Discover known security issues
-- 🔁 Discover repetitive security issues
-- #️⃣ Looks at the code without running the code
-- Security analysis for Security Engineers / Researchers
-
-
----
-
 # Search in code
 
 ```
@@ -106,7 +93,7 @@ public class HelloWorld {
 
 ---
 
-# :factory: Control-flow graph [Models]
+# [Models] :factory: Control-flow graph 
 
 ```java
 if  (a > 10) {
@@ -122,14 +109,14 @@ System.out.println(c);
 ```
 ---
 
-# :factory: Control-flow graph [Models]
+# [Models] :factory: Control-flow graph 
 
 ![w:1100 center](assets/control-flow.png)
 
 ---
 
 
-# :factory: Data-flow graph [Models]
+# [Models] :factory: Data-flow graph 
 
 ```java
 int target = input();
@@ -155,7 +142,7 @@ System.out.println(targetAsString)
 
 ---
 
-# :factory: Pattern
+# :factory: Pattern 1/2
 
 
 Using something insecure
@@ -165,7 +152,7 @@ Using something insecure
 
 ---
 
-# :factory: Pattern
+# :factory: Pattern 2/2
 
 
 🏖️ Data flows into somewhere insecure
@@ -204,16 +191,22 @@ User Input => [some other stuff] => `sql.execute(input)`
 
 ---
 
-# Conclusion
+# :fireworks: Conclusion
 
 - Easy to configure
 - False positive (Context)
-- Easy to add in Code Review / CI
-
-Thanks to *@geekmasher*
+- 📝 An automated tool to analyse source code
+  - Automate Code Review
+- 🔍 Discover known security issues
+- 🔁 Discover repetitive security issues
+- #️⃣ Looks at the code without running the code
+- Security analysis for Security Engineers / Researchers
 
 ---
+
 
 # Slides
 
 https://adrienpessu.github.io/slides/introduction_to_SAST/
+
+Thanks to *@geekmasher*
