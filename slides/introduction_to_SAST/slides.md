@@ -28,12 +28,6 @@ Introduction aux outils de tests de sécurité d'application statique (SAST)
 
 ---
 
-# Introduction
-
-![h:400 center](assets/giphy_security.gif)
-
----
-
 # Search in code
 
 ```
@@ -55,6 +49,12 @@ sed -i 's/setDangerousHTML/void/g' index.ts
 ![h:300 center](assets/applause.gif)
 
 --- 
+
+# Introduction
+
+![h:400 center](assets/giphy_security.gif)
+
+---
 
 # Definition
 
