@@ -209,6 +209,8 @@ User Input => [some other stuff] => `sql.execute(input)`
 
 https://adrienpessu.github.io/slides/introduction_to_SAST/
 
-![h:270 center](assets/rivieradev.png)
+![w:200 center](assets/rivieradev.png)
+
+https://openfeedback.io/VWEMZHoBj0mPrdZ9Isso
 
 Thanks to *@geekmasher*
