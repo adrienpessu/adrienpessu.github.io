@@ -136,6 +136,7 @@ System.out.println(targetAsString)
 - Sources (user controlled inputs)
 - Sinks (dangerous methods / assignments)
 - Sanitizers (secures the user data)
+- Validator
 - Passthroughs (functions that track tainte- data)
 
 <!-- Filter resuts -->
