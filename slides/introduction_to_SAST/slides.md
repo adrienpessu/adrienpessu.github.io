@@ -200,7 +200,7 @@ User Input => [some other stuff] => `sql.execute(input)`
   - Automate Code Review
 - 🔍 Discover known security issues
 - 🔁 Discover repetitive security issues
-- #️⃣ Looks at the code without running the code
+- Remediation
 - Security analysis for Security Engineers / Researchers
 
 ---
