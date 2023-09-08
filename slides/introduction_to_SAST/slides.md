@@ -179,7 +179,7 @@ User Input => [some other stuff] => `sql.execute(input)`
 
 #  :wrench: Configuration
 
-- 📏 Configuration Rules (yaml, json, data tructure...)
+- 📏 Configuration Rules (yaml, json, data structure...)
   - Simpler to write
   - Complex flows can be very hard to declare
 - ⚙️ Dynamic Queries (#️⃣ programming like language)
