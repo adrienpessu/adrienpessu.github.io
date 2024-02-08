@@ -32,7 +32,12 @@ jobs:
         uses: actions/checkout@v3
       - name: Setup Pages
         uses: actions/configure-pages@v2
-      - name: build
+      - name: build_introduction_to_SAST
+        working-directory: slides/introduction_to_SAST
+        run: |
+          npm i
+          npm run build
+      - name: build_OSS_and_Security
         working-directory: slides/OpensourcePlusSecurityEq❤
         run: |
           npm i
