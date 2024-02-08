@@ -171,9 +171,6 @@ User Input => [some other stuff] => `sql.execute(input)`
   - Using Key Vaults, ...
 - 🔎 Code Quality and Code Smells
   - Long Functions, Duplicated code, ...
-- 👍 Positive Results
-    - Using appropriate hashing algorithm  
-    - automatic encoding, ...
 
 ---
 
@@ -194,17 +191,25 @@ User Input => [some other stuff] => `sql.execute(input)`
 
 # :fireworks: Conclusion
 
-- Easy to configure
-- False positive (Context)
-- 📝 An automated tool to analyse source code
-  - Automate Code Review
-- 🔍 Discover known security issues
-- 🔁 Discover repetitive security issues
-- Remediation
-- Security analysis for Security Engineers / Researchers
+- Complete
+- Speed
+- accuracy
+
+You can only choose two
 
 ---
 
+# :fireworks: Conclusion
+
+- Easy to configure
+- False positive (Context)
+- Remediation
+  - Automate Code Review
+- 🔍 Discover known security issues
+- 🔁 Discover repetitive security issues 
+- Security analysis for Security Engineers / Researchers
+
+---
 
 # Slides
 
